@@ -1,8 +1,44 @@
 {
   "_meta": {
-    "lastUpdate": null,
+    "lastUpdate": "2026-06-22T15:51:07.857588+08:00",
     "topN": 5,
-    "quote": "USDT",
-    "note": "此文件由 GitHub Actions 自动更新，请勿手动编辑"
-  }
+    "quote": "USDT"
+  },
+  "2026-06-22": [
+    {
+      "symbol": "SYNUSDT",
+      "pct": 92.51,
+      "price": 0.2493,
+      "firstSeen": "15:51:07",
+      "rank": 1
+    },
+    {
+      "symbol": "IDUSDT",
+      "pct": 33.68,
+      "price": 0.0381,
+      "firstSeen": "15:51:07",
+      "rank": 2
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "pct": 19.65,
+      "price": 0.0001912,
+      "firstSeen": "15:51:07",
+      "rank": 3
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "pct": 16.86,
+      "price": 0.0201,
+      "firstSeen": "15:51:07",
+      "rank": 4
+    },
+    {
+      "symbol": "BELUSDT",
+      "pct": 16.24,
+      "price": 0.1689,
+      "firstSeen": "15:51:07",
+      "rank": 5
+    }
+  ]
 }
