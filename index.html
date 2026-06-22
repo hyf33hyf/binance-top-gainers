@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -734,7 +733,11 @@ const GITHUB_USER = 'hyf33hyf';
 const GITHUB_REPO  = 'binance-top-gainers';
 const GITHUB_BRANCH = 'main';
 
-const DATA_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/data/history.json`;
+// GitHub Pages 同域直接读取，无跨域问题
+const IS_PAGES = location.hostname.includes('github.io');
+const DATA_URL = IS_PAGES
+  ? './data/history.json'
+  : `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/data/history.json`;
 
 let quote = 'USDT';
 let selectedDate = null;
@@ -772,12 +775,10 @@ async function loadCloudData() {
   if (btn) { btn.textContent = '⟳ 刷新中...'; btn.disabled = true; }
 
   try {
-    // 强力破坏缓存：时间戳 + cache:no-store + 随机字符
+    // 加时间戳防止缓存
     const bust = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
-    const res = await fetch(`${DATA_URL}?t=${bust}`, {
-      cache: 'no-store',
-      headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache' }
-    });
+    const url = IS_PAGES ? `${DATA_URL}?t=${bust}` : `${DATA_URL}?t=${bust}`;
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
