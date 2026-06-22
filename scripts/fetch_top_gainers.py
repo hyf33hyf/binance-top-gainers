@@ -16,7 +16,7 @@ from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
-API_BASE = "https://api.binance.com"
+API_BASE = "https://data-api.binance.vision"
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "history.json")
 
 # 可通过环境变量配置，默认 TOP5 / USDT
