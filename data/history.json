@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-23T00:07:38.144752+08:00",
+    "lastUpdate": "2026-06-23T03:58:31.739934+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -69,6 +69,13 @@
       "price": 0.1397,
       "firstSeen": "00:04:48",
       "rank": 3
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": 28.04,
+      "price": 18.096,
+      "firstSeen": "03:58:31",
+      "rank": 2
     }
   ]
 }
