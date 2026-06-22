@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -667,7 +668,23 @@
     <span class="ctrl-label">最后更新</span>
     <span class="ctrl-label" id="lastUpdateText" style="color:var(--accent)">--</span>
   </div>
-  <button class="btn btn-start" id="btnRefresh" onclick="manualRefresh()">↻ 立即刷新</button>
+  <div class="ctrl-group" style="margin-left:auto">
+    <div class="top-toggle">
+      <div class="top-toggle-btn" id="topBtn5" onclick="setTopNCloud(5)">TOP 5</div>
+      <div class="top-toggle-btn active" id="topBtn3" onclick="setTopNCloud(3)">TOP 3</div>
+    </div>
+  </div>
+  <div class="ctrl-group">
+    <span class="ctrl-label">采集间隔</span>
+    <select id="intervalSel" onchange="setIntervalCloud()">
+      <option value="15">15 分钟</option>
+      <option value="30" selected>30 分钟</option>
+      <option value="60">1 小时</option>
+    </select>
+  </div>
+  <button class="btn btn-start" id="btnRefresh" onclick="manualRefresh()" style="white-space:nowrap">↻ 立即刷新</button>
+  <span id="autoRefreshCountdown" style="font-size:11px;color:var(--muted);font-family:'JetBrains Mono',monospace;white-space:nowrap">60s 后自动刷新</span>
+  <button class="btn" id="btnSettings" onclick="openSettingsModal()" style="background:var(--card);border:1px solid var(--border);color:var(--muted)">⚙️ 设置</button>
 </div>
 
 <div class="main">
@@ -715,6 +732,7 @@ const API_BASE = 'https://api.binance.com';
 // ⚠️ 重要：把下面两行换成你自己的 GitHub 用户名和仓库名
 const GITHUB_USER = 'hyf33hyf';
 const GITHUB_REPO  = 'binance-top-gainers';
+const GITHUB_BRANCH = 'main';
 
 const DATA_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/data/history.json`;
 
@@ -750,10 +768,16 @@ function todayStr() {
 async function loadCloudData() {
   const dot = document.getElementById('cloudStatusDot');
   const statusText = document.getElementById('cloudStatusText');
+  const btn = document.getElementById('btnRefresh');
+  if (btn) { btn.textContent = '⟳ 刷新中...'; btn.disabled = true; }
 
   try {
-    // 加时间戳参数防止浏览器/CDN缓存旧数据
-    const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
+    // 强力破坏缓存：时间戳 + cache:no-store + 随机字符
+    const bust = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    const res = await fetch(`${DATA_URL}?t=${bust}`, {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache' }
+    });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
@@ -775,6 +799,9 @@ async function loadCloudData() {
     statusText.textContent = '云端连接失败';
     log(`❌ 云端数据加载失败: ${e.message}`, 'err');
     log('请检查 index.html 顶部的 GITHUB_USER / GITHUB_REPO 是否已正确填写', 'warn');
+  } finally {
+    if (btn) { btn.textContent = '↻ 立即刷新'; btn.disabled = false; }
+    resetAutoRefreshCountdown();
   }
 }
 
@@ -789,11 +816,33 @@ function loadData() {
 
 function manualRefresh() {
   log('手动刷新云端数据...', 'info');
+  clearInterval(autoRefreshTimer);
   loadCloudData();
 }
 
-// ─── 自动定时刷新（每60秒检查一次云端是否有更新）──────
-setInterval(loadCloudData, 60 * 1000);
+// ─── 自动定时刷新 + 倒计时显示 ──────────────────────
+let autoRefreshTimer = null;
+let autoRefreshCountdown = 60;
+const AUTO_REFRESH_SEC = 60;
+
+function resetAutoRefreshCountdown() {
+  clearInterval(autoRefreshTimer);
+  autoRefreshCountdown = AUTO_REFRESH_SEC;
+  updateCountdownDisplay();
+  autoRefreshTimer = setInterval(() => {
+    autoRefreshCountdown--;
+    updateCountdownDisplay();
+    if (autoRefreshCountdown <= 0) {
+      clearInterval(autoRefreshTimer);
+      loadCloudData();
+    }
+  }, 1000);
+}
+
+function updateCountdownDisplay() {
+  const el = document.getElementById('autoRefreshCountdown');
+  if (el) el.textContent = `${autoRefreshCountdown}s 后自动刷新`;
+}
 
 // ─── 渲染：日期列表 ───────────────────────────────
 function renderDateList() {
@@ -1334,11 +1383,264 @@ function setupCrosshair(canvas, W, H, PL, PR, PT, PB, chartH, pMin, pMax, step) 
   canvas.onmouseleave = () => { tip.style.display = 'none'; };
 }
 
+// ─── SETTINGS & GITHUB API ───────────────────────
+const TOKEN_KEY    = 'evan_github_token_v1';
+const SETTINGS_KEY = 'evan_cloud_settings_v1';
+
+let currentTopN    = 3;
+let currentInterval = 30;
+
+function loadSettings() {
+  try {
+    const raw = localStorage.getItem(SETTINGS_KEY);
+    if (raw) {
+      const s = JSON.parse(raw);
+      currentTopN      = s.topN      || 3;
+      currentInterval  = s.interval  || 30;
+    }
+  } catch(e) {}
+}
+
+function saveSettingsLocal(topN, interval) {
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify({ topN, interval }));
+}
+
+function getToken() {
+  return localStorage.getItem(TOKEN_KEY) || '';
+}
+
+// ── 控制栏按钮联动 ──
+function syncControlBar() {
+  document.getElementById('topBtn5').classList.toggle('active', currentTopN === 5);
+  document.getElementById('topBtn3').classList.toggle('active', currentTopN === 3);
+  document.getElementById('intervalSel').value = String(currentInterval);
+}
+
+function setTopNCloud(n) {
+  if (!getToken()) { openSettingsModal(); return; }
+  currentTopN = n;
+  syncControlBar();
+  applyToGitHub(currentTopN, currentInterval);
+}
+
+function setIntervalCloud() {
+  if (!getToken()) { openSettingsModal(); return; }
+  currentInterval = parseInt(document.getElementById('intervalSel').value);
+  applyToGitHub(currentTopN, currentInterval);
+}
+
+// ── 设置弹窗 ──
+function openSettingsModal() {
+  const modal = document.getElementById('settingsModal');
+  modal.style.display = 'flex';
+  // 填入已保存的 token
+  const t = getToken();
+  document.getElementById('tokenInput').value = t ? '••••••••••••••••' : '';
+  // 同步当前设置
+  document.getElementById('settingsTopBtn5').classList.toggle('active', currentTopN === 5);
+  document.getElementById('settingsTopBtn3').classList.toggle('active', currentTopN === 3);
+  document.getElementById('settingsIntervalSel').value = String(currentInterval);
+  document.getElementById('settingsStatus').style.display = 'none';
+}
+
+function closeSettingsModal() {
+  document.getElementById('settingsModal').style.display = 'none';
+}
+
+function onSettingsBackdropClick(e) {
+  if (e.target === document.getElementById('settingsModal')) closeSettingsModal();
+}
+
+function settingsSetTop(n) {
+  currentTopN = n;
+  document.getElementById('settingsTopBtn5').classList.toggle('active', n === 5);
+  document.getElementById('settingsTopBtn3').classList.toggle('active', n === 3);
+}
+
+async function saveSettings() {
+  const tokenInput = document.getElementById('tokenInput').value.trim();
+  const interval   = parseInt(document.getElementById('settingsIntervalSel').value);
+  const statusEl   = document.getElementById('settingsStatus');
+
+  // 如果输入框里是遮挡符，说明用户没改token，继续用原来的
+  const token = tokenInput === '••••••••••••••••' ? getToken() : tokenInput;
+
+  if (!token) {
+    statusEl.style.display = 'block';
+    statusEl.style.color = 'var(--red)';
+    statusEl.textContent = '⚠️ 请先填写 GitHub Token';
+    return;
+  }
+
+  currentInterval = interval;
+  localStorage.setItem(TOKEN_KEY, token);
+  saveSettingsLocal(currentTopN, currentInterval);
+  syncControlBar();
+
+  statusEl.style.display = 'block';
+  statusEl.style.color = 'var(--accent)';
+  statusEl.textContent = '正在更新云端配置...';
+
+  const ok = await applyToGitHub(currentTopN, currentInterval);
+  if (ok) {
+    statusEl.style.color = 'var(--green)';
+    statusEl.textContent = '✅ 云端配置已更新！';
+    setTimeout(() => closeSettingsModal(), 1500);
+  } else {
+    statusEl.style.color = 'var(--red)';
+    statusEl.textContent = '❌ 更新失败，请检查 Token 是否正确';
+  }
+}
+
+// ── 通过 GitHub API 更新 workflow 文件 ──
+async function applyToGitHub(topN, interval) {
+  const token = getToken();
+  if (!token) return false;
+
+  const cronMap = { 15: '*/15 * * * *', 30: '*/30 * * * *', 60: '0 * * * *' };
+  const cron = cronMap[interval] || '*/30 * * * *';
+
+  const newContent = `name: 币安涨幅榜定时采集
+
+on:
+  schedule:
+    - cron: '${cron}'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行采集脚本
+        env:
+          TOP_N: '${topN}'
+          QUOTE: 'USDT'
+        run: python scripts/fetch_top_gainers.py
+
+      - name: 提交更新后的数据文件
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add data/history.json
+          git diff --staged --quiet || git commit -m "自动更新涨幅榜数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+`;
+
+  try {
+    // 先获取文件当前的 sha（更新文件必须提供sha）
+    const getRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/.github/workflows/fetch-gainers.yml`,
+      { headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' } }
+    );
+    if (!getRes.ok) throw new Error(`GET failed: ${getRes.status}`);
+    const fileData = await getRes.json();
+    const sha = fileData.sha;
+
+    // 更新文件
+    const putRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/.github/workflows/fetch-gainers.yml`,
+      {
+        method: 'PUT',
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: `更新采集设置: TOP${topN} 每${interval}分钟`,
+          content: btoa(unescape(encodeURIComponent(newContent))),
+          sha: sha,
+        }),
+      }
+    );
+
+    if (!putRes.ok) throw new Error(`PUT failed: ${putRes.status}`);
+    saveSettingsLocal(topN, interval);
+    log(`✅ 云端配置已更新: TOP${topN} · 每${interval}分钟采集一次`, 'ok');
+    return true;
+  } catch(e) {
+    log(`❌ 云端配置更新失败: ${e.message}`, 'err');
+    return false;
+  }
+}
+
 // ─── INIT ───────────────────────────────────────
+loadSettings();
+syncControlBar();
 log('每日涨幅榜归档工具（云端版）已就绪', 'info');
 log('数据由 GitHub Actions 在云端定时采集，即使本机关机也会持续运行', 'info');
-loadCloudData();
+if (!getToken()) log('💡 点击右上角 ⚙️ 设置 按钮，输入 GitHub Token 即可在网页上直接修改采集设置', 'info');
+loadCloudData(); // 启动后立即加载，加载完毕后会自动启动倒计时循环
 </script>
+<!-- ─── SETTINGS MODAL ──────────────────────────── -->
+<div id="settingsModal" class="modal-backdrop" style="display:none" onclick="onSettingsBackdropClick(event)">
+  <div class="modal" style="width:min(460px,92vw)">
+    <div class="modal-head">
+      <div class="modal-title">⚙️ 云端设置</div>
+      <button class="modal-close" onclick="closeSettingsModal()">✕</button>
+    </div>
+    <div style="padding:20px;display:flex;flex-direction:column;gap:20px">
+
+      <div>
+        <div style="font-size:12px;color:var(--muted);font-family:'JetBrains Mono',monospace;margin-bottom:8px">
+          GitHub Personal Access Token
+        </div>
+        <input id="tokenInput" type="password"
+          placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+          style="width:100%;background:var(--card);border:1px solid var(--border);
+                 color:var(--text);border-radius:8px;padding:10px 12px;
+                 font-size:13px;font-family:'JetBrains Mono',monospace;
+                 outline:none;box-sizing:border-box">
+        <div style="font-size:11px;color:var(--muted);margin-top:6px">
+          Token 只保存在你的浏览器本地，不会上传到任何地方
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size:12px;color:var(--muted);font-family:'JetBrains Mono',monospace;margin-bottom:8px">
+          榜单范围
+        </div>
+        <div class="top-toggle" style="width:fit-content">
+          <div class="top-toggle-btn" id="settingsTopBtn5" onclick="settingsSetTop(5)">TOP 5</div>
+          <div class="top-toggle-btn active" id="settingsTopBtn3" onclick="settingsSetTop(3)">TOP 3</div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size:12px;color:var(--muted);font-family:'JetBrains Mono',monospace;margin-bottom:8px">
+          采集间隔
+        </div>
+        <select id="settingsIntervalSel"
+          style="background:var(--card);border:1px solid var(--border);
+                 color:var(--text);border-radius:6px;padding:6px 10px;
+                 font-size:13px;font-family:'JetBrains Mono',monospace;outline:none">
+          <option value="15">15 分钟</option>
+          <option value="30" selected>30 分钟</option>
+          <option value="60">1 小时</option>
+        </select>
+      </div>
+
+      <div id="settingsStatus" style="font-size:12px;color:var(--muted);font-family:'JetBrains Mono',monospace;display:none"></div>
+
+      <div style="display:flex;gap:10px">
+        <button class="btn btn-clear" style="flex:1;border:1px solid var(--border);color:var(--muted);background:transparent" onclick="closeSettingsModal()">取消</button>
+        <button class="btn btn-start" style="flex:2" onclick="saveSettings()">💾 保存并应用</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ─── KLINE MODAL ─────────────────────────────── -->
 <div id="klineModal" class="modal-backdrop" style="display:none" onclick="onBackdropClick(event)">
   <div class="modal">
