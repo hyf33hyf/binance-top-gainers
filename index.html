@@ -683,6 +683,7 @@
   </div>
   <button class="btn btn-start" id="btnRefresh" onclick="manualRefresh()" style="white-space:nowrap">↻ 立即刷新</button>
   <span id="autoRefreshCountdown" style="font-size:11px;color:var(--muted);font-family:'JetBrains Mono',monospace;white-space:nowrap">60s 后自动刷新</span>
+  <button class="btn" id="btnTrigger" onclick="triggerCollection()" style="background:rgba(0,230,118,0.1);border:1px solid var(--green);color:var(--green);white-space:nowrap">⚡ 立即采集</button>
   <button class="btn" id="btnSettings" onclick="openSettingsModal()" style="background:var(--card);border:1px solid var(--border);color:var(--muted)">⚙️ 设置</button>
 </div>
 
@@ -1382,6 +1383,51 @@ function setupCrosshair(canvas, W, H, PL, PR, PT, PB, chartH, pMin, pMax, step) 
   };
 
   canvas.onmouseleave = () => { tip.style.display = 'none'; };
+}
+
+// ─── TRIGGER GITHUB ACTIONS ─────────────────────
+async function triggerCollection() {
+  const token = getToken();
+  if (!token) {
+    openSettingsModal();
+    return;
+  }
+
+  const btn = document.getElementById('btnTrigger');
+  btn.textContent = '⏳ 采集中...';
+  btn.disabled = true;
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/actions/workflows/fetch-gainers.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: GITHUB_BRANCH }),
+      }
+    );
+
+    if (res.status === 204) {
+      log('✅ 已触发云端采集，约15秒后完成，请稍后点「立即刷新」查看新数据', 'ok');
+      btn.textContent = '✅ 已触发';
+      // 15秒后自动刷新数据
+      setTimeout(() => {
+        loadCloudData();
+        btn.textContent = '⚡ 立即采集';
+        btn.disabled = false;
+      }, 15000);
+    } else {
+      throw new Error(`HTTP ${res.status}`);
+    }
+  } catch(e) {
+    log(`❌ 触发采集失败: ${e.message}`, 'err');
+    btn.textContent = '⚡ 立即采集';
+    btn.disabled = false;
+  }
 }
 
 // ─── SETTINGS & GITHUB API ───────────────────────
