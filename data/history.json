@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-23T07:57:06.335018+08:00",
+    "lastUpdate": "2026-06-23T17:42:39.046806+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -82,6 +82,20 @@
       "pct": 22.8,
       "price": 0.0377,
       "firstSeen": "07:57:06",
+      "rank": 3
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "pct": 17.68,
+      "price": 0.0812,
+      "firstSeen": "17:42:39",
+      "rank": 2
+    },
+    {
+      "symbol": "MMTUSDT",
+      "pct": 15.14,
+      "price": 0.2038,
+      "firstSeen": "17:42:39",
       "rank": 3
     }
   ]
