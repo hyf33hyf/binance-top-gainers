@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-24T01:23:40.644439+08:00",
+    "lastUpdate": "2026-06-24T06:06:09.841284+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -119,6 +119,13 @@
       "pct": 11.14,
       "price": 0.0409,
       "firstSeen": "01:23:40",
+      "rank": 3
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "pct": 11.74,
+      "price": 0.14637,
+      "firstSeen": "06:06:09",
       "rank": 3
     }
   ]
