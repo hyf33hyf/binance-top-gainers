@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-23T17:42:39.046806+08:00",
+    "lastUpdate": "2026-06-24T01:23:40.644439+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -96,6 +96,29 @@
       "pct": 15.14,
       "price": 0.2038,
       "firstSeen": "17:42:39",
+      "rank": 3
+    }
+  ],
+  "2026-06-24": [
+    {
+      "symbol": "DEXEUSDT",
+      "pct": 24.21,
+      "price": 22.52,
+      "firstSeen": "01:23:40",
+      "rank": 1
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": 20.55,
+      "price": 0.105,
+      "firstSeen": "01:23:40",
+      "rank": 2
+    },
+    {
+      "symbol": "VICUSDT",
+      "pct": 11.14,
+      "price": 0.0409,
+      "firstSeen": "01:23:40",
       "rank": 3
     }
   ]
