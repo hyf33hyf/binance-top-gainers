@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-24T06:06:09.841284+08:00",
+    "lastUpdate": "2026-06-24T10:39:35.760259+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -126,6 +126,20 @@
       "pct": 11.74,
       "price": 0.14637,
       "firstSeen": "06:06:09",
+      "rank": 3
+    },
+    {
+      "symbol": "QKCUSDT",
+      "pct": 21.76,
+      "price": 0.002546,
+      "firstSeen": "10:39:35",
+      "rank": 2
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": 19.84,
+      "price": 0.308,
+      "firstSeen": "10:39:35",
       "rank": 3
     }
   ]
