@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-24T18:29:37.038205+08:00",
+    "lastUpdate": "2026-06-25T01:31:55.462713+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -155,6 +155,29 @@
       "price": 0.0141,
       "firstSeen": "18:29:37",
       "rank": 2
+    }
+  ],
+  "2026-06-25": [
+    {
+      "symbol": "ATMUSDT",
+      "pct": 28.73,
+      "price": 1.77,
+      "firstSeen": "01:31:55",
+      "rank": 1
+    },
+    {
+      "symbol": "DODOUSDT",
+      "pct": 17.67,
+      "price": 0.01865,
+      "firstSeen": "01:31:55",
+      "rank": 2
+    },
+    {
+      "symbol": "IDUSDT",
+      "pct": 13.98,
+      "price": 0.0375,
+      "firstSeen": "01:31:55",
+      "rank": 3
     }
   ]
 }
