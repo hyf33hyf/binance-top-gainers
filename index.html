@@ -683,7 +683,7 @@
   </div>
   <button class="btn btn-start" id="btnRefresh" onclick="manualRefresh()" style="white-space:nowrap">↻ 立即刷新</button>
   <span id="autoRefreshCountdown" style="font-size:11px;color:var(--muted);font-family:'JetBrains Mono',monospace;white-space:nowrap">60s 后自动刷新</span>
-  <button class="btn" id="btnTrigger" onclick="triggerCollection()" style="background:rgba(0,230,118,0.1);border:1px solid var(--green);color:var(--green);white-space:nowrap">⚡ 立即采集</button>
+  <button class="btn" id="btnTrigger" onclick="triggerCollection()" style="background:rgba(0,230,118,0.1);border:1px solid var(--green);color:var(--green);white-space:nowrap">⚡ 本地采集</button>
   <button class="btn" id="btnSettings" onclick="openSettingsModal()" style="background:var(--card);border:1px solid var(--border);color:var(--muted)">⚙️ 设置</button>
 </div>
 
@@ -1388,44 +1388,117 @@ function setupCrosshair(canvas, W, H, PL, PR, PT, PB, chartH, pMin, pMax, step) 
 // ─── TRIGGER GITHUB ACTIONS ─────────────────────
 async function triggerCollection() {
   const token = getToken();
-  if (!token) {
-    openSettingsModal();
-    return;
-  }
+  if (!token) { openSettingsModal(); return; }
 
   const btn = document.getElementById('btnTrigger');
   btn.textContent = '⏳ 采集中...';
   btn.disabled = true;
 
   try {
-    const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/actions/workflows/fetch-gainers.yml/dispatches`,
+    log('开始本地采集币安涨幅榜...', 'info');
+
+    // 1. 拉取有效交易对
+    const exRes = await fetch(`${API_BASE}/api/v3/exchangeInfo`);
+    if (!exRes.ok) throw new Error(`exchangeInfo HTTP ${exRes.status}`);
+    const exData = await exRes.json();
+    const validSymbols = new Set(
+      exData.symbols
+        .filter(s => s.quoteAsset === quote && s.status === 'TRADING' && s.isSpotTradingAllowed)
+        .map(s => s.symbol)
+    );
+
+    // 2. 拉取24h行情，排序取TOP N
+    const tickerRes = await fetch(`${API_BASE}/api/v3/ticker/24hr`);
+    if (!tickerRes.ok) throw new Error(`ticker HTTP ${tickerRes.status}`);
+    const tickers = await tickerRes.json();
+    const top = tickers
+      .filter(t => validSymbols.has(t.symbol))
+      .sort((a, b) => parseFloat(b.priceChangePercent) - parseFloat(a.priceChangePercent))
+      .slice(0, currentTopN);
+
+    log(`本地采集完成: TOP${currentTopN} → ${top.map(t => t.symbol).join(', ')}`, 'ok');
+
+    // 3. 读取云端当前 history.json
+    const getRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/data/history.json`,
+      { headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' } }
+    );
+    if (!getRes.ok) throw new Error(`读取云端数据失败 HTTP ${getRes.status}`);
+    const fileInfo = await getRes.json();
+    const sha = fileInfo.sha;
+    const existingData = JSON.parse(decodeURIComponent(escape(atob(fileInfo.content.replace(/
+/g, '')))));
+
+    // 4. 合并数据（当天去重，只追加新币种）
+    const now = new Date();
+    const todayKey = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+    const timeStr = now.toLocaleTimeString('zh-CN');
+    if (!existingData[todayKey]) existingData[todayKey] = [];
+    const existingSymbols = new Set(existingData[todayKey].map(c => c.symbol));
+    let newCount = 0;
+
+    top.forEach((t, idx) => {
+      if (existingSymbols.has(t.symbol)) return;
+      existingData[todayKey].push({
+        symbol: t.symbol,
+        pct: parseFloat(parseFloat(t.priceChangePercent).toFixed(2)),
+        price: parseFloat(t.lastPrice),
+        firstSeen: timeStr,
+        rank: idx + 1,
+      });
+      newCount++;
+    });
+
+    // 更新meta
+    existingData['_meta'] = {
+      lastUpdate: now.toISOString(),
+      topN: currentTopN,
+      quote,
+    };
+
+    // 清理超过120天的数据
+    const dates = Object.keys(existingData).filter(k => k !== '_meta').sort();
+    if (dates.length > 120) {
+      dates.slice(0, dates.length - 120).forEach(d => delete existingData[d]);
+    }
+
+    // 5. 写回 GitHub
+    const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(existingData, null, 2))));
+    const putRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/data/history.json`,
       {
-        method: 'POST',
+        method: 'PUT',
         headers: {
           Authorization: `token ${token}`,
           Accept: 'application/vnd.github.v3+json',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ ref: GITHUB_BRANCH }),
+        body: JSON.stringify({
+          message: `本地采集更新 ${todayKey} ${timeStr}`,
+          content: newContent,
+          sha,
+        }),
       }
     );
+    if (!putRes.ok) throw new Error(`写入云端失败 HTTP ${putRes.status}`);
 
-    if (res.status === 204) {
-      log('✅ 已触发云端采集，约15秒后完成，请稍后点「立即刷新」查看新数据', 'ok');
-      btn.textContent = '✅ 已触发';
-      // 15秒后自动刷新数据
-      setTimeout(() => {
-        loadCloudData();
-        btn.textContent = '⚡ 立即采集';
-        btn.disabled = false;
-      }, 15000);
+    if (newCount > 0) {
+      log(`✅ 新增 ${newCount} 个币种已同步到云端`, 'ok');
     } else {
-      throw new Error(`HTTP ${res.status}`);
+      log(`✅ 本次采集无新增（TOP${currentTopN}均已记录过）`, 'info');
     }
+
+    btn.textContent = '✅ 已采集';
+    // 3秒后刷新数据并恢复按钮
+    setTimeout(() => {
+      loadCloudData();
+      btn.textContent = '⚡ 本地采集';
+      btn.disabled = false;
+    }, 3000);
+
   } catch(e) {
-    log(`❌ 触发采集失败: ${e.message}`, 'err');
-    btn.textContent = '⚡ 立即采集';
+    log(`❌ 本地采集失败: ${e.message}`, 'err');
+    btn.textContent = '⚡ 本地采集';
     btn.disabled = false;
   }
 }
