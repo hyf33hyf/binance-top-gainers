@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-24T03:31:39.009Z",
+    "lastUpdate": "2026-06-24T12:45:16.592044+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -140,6 +140,13 @@
       "pct": 19.84,
       "price": 0.308,
       "firstSeen": "10:39:35",
+      "rank": 3
+    },
+    {
+      "symbol": "GUSDT",
+      "pct": 12.6,
+      "price": 0.00295,
+      "firstSeen": "12:45:16",
       "rank": 3
     }
   ]
