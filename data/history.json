@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-24T12:45:16.592044+08:00",
+    "lastUpdate": "2026-06-24T18:29:37.038205+08:00",
     "topN": 3,
     "quote": "USDT"
   },
@@ -148,6 +148,13 @@
       "price": 0.00295,
       "firstSeen": "12:45:16",
       "rank": 3
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "pct": 23.9,
+      "price": 0.0141,
+      "firstSeen": "18:29:37",
+      "rank": 2
     }
   ]
 }
