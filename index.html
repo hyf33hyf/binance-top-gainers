@@ -411,6 +411,22 @@
     white-space: nowrap;
   }
 
+  .group-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 4px 6px;
+    letter-spacing: .04em;
+  }
+  .gainer-title { color: var(--green); border-bottom: 1px solid var(--green-bg); margin-bottom: 8px; }
+  .loser-title  { color: var(--red);   border-bottom: 1px solid var(--red-bg);   margin-top: 20px; margin-bottom: 8px; }
+
+  .loser-rank {
+    background: rgba(255,23,68,0.1);
+    border-color: rgba(255,23,68,0.3);
+    color: var(--red);
+  }
+
   .empty-detail {
     height: 100%;
     display: flex;
@@ -668,6 +684,7 @@
     <span class="ctrl-label" id="lastUpdateText" style="color:var(--accent)">--</span>
   </div>
   <div class="ctrl-group" style="margin-left:auto">
+    <span class="ctrl-label">榜单数量</span>
     <div class="top-toggle">
       <div class="top-toggle-btn" id="topBtn5" onclick="setTopNCloud(5)">TOP 5</div>
       <div class="top-toggle-btn active" id="topBtn3" onclick="setTopNCloud(3)">TOP 3</div>
@@ -898,12 +915,12 @@ function renderDetail(date) {
   document.getElementById('detailDate').textContent = date;
   const weekdays = ['周日','周一','周二','周三','周四','周五','周六'];
   const dateObj = new Date(date + 'T00:00:00');
-  document.getElementById('detailSub').textContent = `${weekdays[dateObj.getDay()]} · 共 ${coins.length} 个币种上榜`;
 
   if (coins.length === 0) {
     emptyDetail.style.display = 'flex';
     coinGrid.style.display = 'none';
     clearDayBtn.style.display = 'none';
+    document.getElementById('detailSub').textContent = `${weekdays[dateObj.getDay()]} · 暂无记录`;
     return;
   }
 
@@ -911,27 +928,41 @@ function renderDetail(date) {
   coinGrid.style.display = 'flex';
   clearDayBtn.style.display = '';
 
-  // 按涨幅排序展示（最高的在前）
-  const sorted = [...coins].sort((a, b) => b.pct - a.pct);
+  // 分开涨幅榜和跌幅榜
+  const gainers = coins.filter(c => c.type !== 'loser').sort((a, b) => b.pct - a.pct);
+  const losers  = coins.filter(c => c.type === 'loser').sort((a, b) => a.pct - b.pct);
 
-  coinGrid.innerHTML = sorted.map((c, idx) => {
-    const base = c.symbol.replace(quote, '');
-    const priceStr = c.price >= 1 ? c.price.toFixed(2) : c.price.toPrecision(5);
-    return `
-      <div class="coin-card" onclick="openKlineModal('${c.symbol}')">
-        <div class="coin-rank ${idx === 0 ? 'r1' : ''}">#${idx+1}</div>
-        <div class="coin-info">
-          <div class="coin-symbol">${escapeHtml(base)}<span class="quote">/${c.symbol.endsWith('USDT')?'USDT':'BTC'}</span></div>
-          <div class="coin-meta">首次上榜 ${c.firstSeen} · 当时排名第${c.rank}名 · 价格 ${priceStr}</div>
-        </div>
-        <canvas class="sparkline" id="spark-${c.symbol}" width="100" height="36"></canvas>
-        <div class="coin-pct">+${c.pct.toFixed(2)}%</div>
-      </div>
-    `;
-  }).join('');
+  document.getElementById('detailSub').textContent =
+    `${weekdays[dateObj.getDay()]} · 涨幅榜 ${gainers.length} 个 · 跌幅榜 ${losers.length} 个`;
 
-  // 异步为每张卡片绘制迷你K线缩略图
-  sorted.forEach(c => loadSparkline(c.symbol));
+  function renderGroup(list, isLoser) {
+    if (list.length === 0) return '';
+    const title = isLoser
+      ? `<div class="group-title loser-title">📉 跌幅榜</div>`
+      : `<div class="group-title gainer-title">📈 涨幅榜</div>`;
+    const cards = list.map((c, idx) => {
+      const base = c.symbol.replace(quote, '');
+      const priceStr = c.price >= 1 ? c.price.toFixed(2) : c.price.toPrecision(5);
+      const pctStr = isLoser ? `${c.pct.toFixed(2)}%` : `+${c.pct.toFixed(2)}%`;
+      const pctColor = isLoser ? 'style="color:var(--red)"' : '';
+      return `
+        <div class="coin-card" onclick="openKlineModal('${c.symbol}')">
+          <div class="coin-rank ${idx === 0 ? 'r1' : ''} ${isLoser ? 'loser-rank' : ''}">#${idx+1}</div>
+          <div class="coin-info">
+            <div class="coin-symbol">${escapeHtml(base)}<span class="quote">/${c.symbol.endsWith('USDT')?'USDT':'BTC'}</span></div>
+            <div class="coin-meta">首次上榜 ${c.firstSeen} · 当时排名第${c.rank}名 · 价格 ${priceStr}</div>
+          </div>
+          <canvas class="sparkline" id="spark-${c.symbol}" width="100" height="36"></canvas>
+          <div class="coin-pct" ${pctColor}>${pctStr}</div>
+        </div>`;
+    }).join('');
+    return title + cards;
+  }
+
+  coinGrid.innerHTML = renderGroup(gainers, false) + renderGroup(losers, true);
+
+  // 异步绘制迷你K线
+  [...gainers, ...losers].forEach(c => loadSparkline(c.symbol));
 }
 
 function clearSelectedDay() {
@@ -1407,16 +1438,18 @@ async function triggerCollection() {
         .map(s => s.symbol)
     );
 
-    // 2. 拉取24h行情，排序取TOP N
+    // 2. 拉取24h行情，同时取涨幅榜和跌幅榜 TOP N
     const tickerRes = await fetch(`${API_BASE}/api/v3/ticker/24hr`);
     if (!tickerRes.ok) throw new Error(`ticker HTTP ${tickerRes.status}`);
     const tickers = await tickerRes.json();
-    const top = tickers
-      .filter(t => validSymbols.has(t.symbol))
-      .sort((a, b) => parseFloat(b.priceChangePercent) - parseFloat(a.priceChangePercent))
-      .slice(0, currentTopN);
+    const filtered = tickers.filter(t => validSymbols.has(t.symbol));
+    const sorted = [...filtered].sort((a, b) => parseFloat(b.priceChangePercent) - parseFloat(a.priceChangePercent));
 
-    log(`本地采集完成: TOP${currentTopN} → ${top.map(t => t.symbol).join(', ')}`, 'ok');
+    const topGainers = sorted.slice(0, currentTopN);                          // 涨幅榜前N
+    const topLosers  = sorted.slice(sorted.length - currentTopN).reverse();   // 跌幅榜前N
+
+    log(`涨幅榜TOP${currentTopN}: ${topGainers.map(t => t.symbol).join(', ')}`, 'ok');
+    log(`跌幅榜TOP${currentTopN}: ${topLosers.map(t => t.symbol).join(', ')}`, 'ok');
 
     // 3. 读取云端当前 history.json
     const getRes = await fetch(
@@ -1428,7 +1461,7 @@ async function triggerCollection() {
     const sha = fileInfo.sha;
     const existingData = JSON.parse(decodeURIComponent(escape(atob(fileInfo.content.split('\n').join('')))));
 
-    // 4. 合并数据（当天去重，只追加新币种）
+    // 4. 合并数据（当天去重，涨跌幅榜分别追加新币种）
     const now = new Date();
     const todayKey = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
     const timeStr = now.toLocaleTimeString('zh-CN');
@@ -1436,7 +1469,8 @@ async function triggerCollection() {
     const existingSymbols = new Set(existingData[todayKey].map(c => c.symbol));
     let newCount = 0;
 
-    top.forEach((t, idx) => {
+    // 追加涨幅榜
+    topGainers.forEach((t, idx) => {
       if (existingSymbols.has(t.symbol)) return;
       existingData[todayKey].push({
         symbol: t.symbol,
@@ -1444,6 +1478,21 @@ async function triggerCollection() {
         price: parseFloat(t.lastPrice),
         firstSeen: timeStr,
         rank: idx + 1,
+        type: 'gainer',
+      });
+      newCount++;
+    });
+
+    // 追加跌幅榜
+    topLosers.forEach((t, idx) => {
+      if (existingSymbols.has(t.symbol)) return;
+      existingData[todayKey].push({
+        symbol: t.symbol,
+        pct: parseFloat(parseFloat(t.priceChangePercent).toFixed(2)),
+        price: parseFloat(t.lastPrice),
+        firstSeen: timeStr,
+        rank: idx + 1,
+        type: 'loser',
       });
       newCount++;
     });
