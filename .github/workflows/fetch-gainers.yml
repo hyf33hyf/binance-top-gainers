@@ -22,7 +22,7 @@ jobs:
 
       - name: 运行采集脚本
         env:
-          TOP_N: '3'
+          TOP_N: '5'
           QUOTE: 'USDT'
         run: python scripts/fetch_top_gainers.py
 
