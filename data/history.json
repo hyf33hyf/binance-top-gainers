@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-25T04:40:13.774Z",
+    "lastUpdate": "2026-06-25T04:42:22.293Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -235,6 +235,14 @@
       "pct": -14.63,
       "price": 0.0642,
       "firstSeen": "12:40:13",
+      "rank": 3,
+      "type": "loser"
+    },
+    {
+      "symbol": "BICOUSDT",
+      "pct": -15.27,
+      "price": 0.0233,
+      "firstSeen": "12:42:22",
       "rank": 3,
       "type": "loser"
     }
