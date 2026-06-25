@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-25T03:53:21.331Z",
-    "topN": 5,
+    "lastUpdate": "2026-06-25T04:17:36.720Z",
+    "topN": 3,
     "quote": "USDT"
   },
   "2026-06-22": [
@@ -206,6 +206,13 @@
       "price": 1213.31,
       "firstSeen": "11:51:54",
       "rank": 4
+    },
+    {
+      "symbol": "MMTUSDT",
+      "pct": 18.1,
+      "price": 0.1951,
+      "firstSeen": "12:17:36",
+      "rank": 3
     }
   ]
 }
