@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-25T06:42:36.185758+08:00",
+    "lastUpdate": "2026-06-25T03:26:53.200Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -191,6 +191,13 @@
       "pct": 23.29,
       "price": 0.3298,
       "firstSeen": "06:42:36",
+      "rank": 3
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "pct": 15.62,
+      "price": 82.76,
+      "firstSeen": "11:26:53",
       "rank": 3
     }
   ]
