@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-26T04:08:26.977Z",
+    "lastUpdate": "2026-06-26T10:57:27.384Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -302,6 +302,38 @@
       "price": 0.0368,
       "firstSeen": "12:08:26",
       "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "pct": 20.62,
+      "price": 0.01585,
+      "firstSeen": "18:57:27",
+      "rank": 3,
+      "type": "gainer"
+    },
+    {
+      "symbol": "NFPUSDT",
+      "pct": -24.25,
+      "price": 0.00534,
+      "firstSeen": "18:57:27",
+      "rank": 1,
+      "type": "loser"
+    },
+    {
+      "symbol": "ALCXUSDT",
+      "pct": -19.88,
+      "price": 2.66,
+      "firstSeen": "18:57:27",
+      "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "PONDUSDT",
+      "pct": -18.31,
+      "price": 0.00116,
+      "firstSeen": "18:57:27",
+      "rank": 3,
       "type": "loser"
     }
   ]
