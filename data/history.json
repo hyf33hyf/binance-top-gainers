@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-26T04:06:49.434Z",
+    "lastUpdate": "2026-06-26T04:08:26.977Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -294,6 +294,14 @@
       "price": 0.1234,
       "firstSeen": "12:06:36",
       "rank": 3,
+      "type": "loser"
+    },
+    {
+      "symbol": "IDUSDT",
+      "pct": -15.79,
+      "price": 0.0368,
+      "firstSeen": "12:08:26",
+      "rank": 2,
       "type": "loser"
     }
   ]
