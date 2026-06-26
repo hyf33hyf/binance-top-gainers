@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-25T04:42:22.293Z",
+    "lastUpdate": "2026-06-26T04:06:36.530Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -243,6 +243,56 @@
       "pct": -15.27,
       "price": 0.0233,
       "firstSeen": "12:42:22",
+      "rank": 3,
+      "type": "loser"
+    }
+  ],
+  "2026-06-26": [
+    {
+      "symbol": "HEIUSDT",
+      "pct": 42.56,
+      "price": 0.1628,
+      "firstSeen": "12:06:36",
+      "rank": 1,
+      "type": "gainer"
+    },
+    {
+      "symbol": "GUSDT",
+      "pct": 37.75,
+      "price": 0.00416,
+      "firstSeen": "12:06:36",
+      "rank": 2,
+      "type": "gainer"
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "pct": 19.51,
+      "price": 0.02597,
+      "firstSeen": "12:06:36",
+      "rank": 3,
+      "type": "gainer"
+    },
+    {
+      "symbol": "0GUSDT",
+      "pct": -16.33,
+      "price": 0.205,
+      "firstSeen": "12:06:36",
+      "rank": 1,
+      "type": "loser"
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "pct": -15.06,
+      "price": 0.0756,
+      "firstSeen": "12:06:36",
+      "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "pct": -14.84,
+      "price": 0.1234,
+      "firstSeen": "12:06:36",
       "rank": 3,
       "type": "loser"
     }
