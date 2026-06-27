@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-27T05:17:23.402Z",
+    "lastUpdate": "2026-06-27T07:02:34.812Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -384,6 +384,22 @@
       "price": 0.00549,
       "firstSeen": "13:17:23",
       "rank": 3,
+      "type": "loser"
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "pct": 19.38,
+      "price": 0.1435,
+      "firstSeen": "15:02:34",
+      "rank": 3,
+      "type": "gainer"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": -22.22,
+      "price": 0.1369,
+      "firstSeen": "15:02:34",
+      "rank": 2,
       "type": "loser"
     }
   ]
