@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-27T07:02:34.812Z",
+    "lastUpdate": "2026-06-27T12:19:53.795Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -400,6 +400,38 @@
       "price": 0.1369,
       "firstSeen": "15:02:34",
       "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "PIVXUSDT",
+      "pct": 91.02,
+      "price": 0.0638,
+      "firstSeen": "20:19:53",
+      "rank": 1,
+      "type": "gainer"
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "pct": -23.13,
+      "price": 0.3048,
+      "firstSeen": "20:19:53",
+      "rank": 1,
+      "type": "loser"
+    },
+    {
+      "symbol": "BELUSDT",
+      "pct": -21.64,
+      "price": 0.1311,
+      "firstSeen": "20:19:53",
+      "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "AWEUSDT",
+      "pct": -15.42,
+      "price": 0.05967,
+      "firstSeen": "20:19:53",
+      "rank": 3,
       "type": "loser"
     }
   ]
