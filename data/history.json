@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-26T10:57:27.384Z",
+    "lastUpdate": "2026-06-27T05:17:23.402Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -333,6 +333,56 @@
       "pct": -18.31,
       "price": 0.00116,
       "firstSeen": "18:57:27",
+      "rank": 3,
+      "type": "loser"
+    }
+  ],
+  "2026-06-27": [
+    {
+      "symbol": "AGLDUSDT",
+      "pct": 74.25,
+      "price": 0.2199,
+      "firstSeen": "13:17:23",
+      "rank": 1,
+      "type": "gainer"
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "pct": 39.74,
+      "price": 0.1069,
+      "firstSeen": "13:17:23",
+      "rank": 2,
+      "type": "gainer"
+    },
+    {
+      "symbol": "ARKUSDT",
+      "pct": 23.12,
+      "price": 0.1262,
+      "firstSeen": "13:17:23",
+      "rank": 3,
+      "type": "gainer"
+    },
+    {
+      "symbol": "PONDUSDT",
+      "pct": -19.01,
+      "price": 0.00115,
+      "firstSeen": "13:17:23",
+      "rank": 1,
+      "type": "loser"
+    },
+    {
+      "symbol": "ALCXUSDT",
+      "pct": -17.5,
+      "price": 2.64,
+      "firstSeen": "13:17:23",
+      "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "NFPUSDT",
+      "pct": -16.69,
+      "price": 0.00549,
+      "firstSeen": "13:17:23",
       "rank": 3,
       "type": "loser"
     }
