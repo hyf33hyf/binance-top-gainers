@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-27T12:19:53.795Z",
+    "lastUpdate": "2026-06-27T15:15:38.802Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -431,6 +431,14 @@
       "pct": -15.42,
       "price": 0.05967,
       "firstSeen": "20:19:53",
+      "rank": 3,
+      "type": "loser"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": -9.21,
+      "price": 0.0641,
+      "firstSeen": "23:15:38",
       "rank": 3,
       "type": "loser"
     }
