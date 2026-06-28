@@ -2,7 +2,7 @@ name: 币安涨幅榜定时采集
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
