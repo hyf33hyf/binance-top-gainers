@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-27T15:15:38.802Z",
+    "lastUpdate": "2026-06-28T05:49:03.210Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -439,6 +439,56 @@
       "pct": -9.21,
       "price": 0.0641,
       "firstSeen": "23:15:38",
+      "rank": 3,
+      "type": "loser"
+    }
+  ],
+  "2026-06-28": [
+    {
+      "symbol": "POWRUSDT",
+      "pct": 27.95,
+      "price": 0.0563,
+      "firstSeen": "13:49:03",
+      "rank": 1,
+      "type": "gainer"
+    },
+    {
+      "symbol": "ACTUSDT",
+      "pct": 26.26,
+      "price": 0.01005,
+      "firstSeen": "13:49:03",
+      "rank": 2,
+      "type": "gainer"
+    },
+    {
+      "symbol": "PIVXUSDT",
+      "pct": 24.86,
+      "price": 0.0432,
+      "firstSeen": "13:49:03",
+      "rank": 3,
+      "type": "gainer"
+    },
+    {
+      "symbol": "BELUSDT",
+      "pct": -23.64,
+      "price": 0.1276,
+      "firstSeen": "13:49:03",
+      "rank": 1,
+      "type": "loser"
+    },
+    {
+      "symbol": "PONDUSDT",
+      "pct": -16.39,
+      "price": 0.00102,
+      "firstSeen": "13:49:03",
+      "rank": 2,
+      "type": "loser"
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "pct": -14.45,
+      "price": 0.01255,
+      "firstSeen": "13:49:03",
       "rank": 3,
       "type": "loser"
     }
