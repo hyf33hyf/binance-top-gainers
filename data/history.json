@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-28T05:49:52.118Z",
+    "lastUpdate": "2026-06-28T06:02:40.338Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -497,6 +497,14 @@
       "pct": -14.39,
       "price": 0.0577,
       "firstSeen": "13:49:52",
+      "rank": 3,
+      "type": "loser"
+    },
+    {
+      "symbol": "ARKUSDT",
+      "pct": -16.77,
+      "price": 0.1102,
+      "firstSeen": "14:02:40",
       "rank": 3,
       "type": "loser"
     }
