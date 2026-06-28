@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-28T06:02:40.338Z",
+    "lastUpdate": "2026-06-28T06:50:14.866Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -507,6 +507,51 @@
       "firstSeen": "14:02:40",
       "rank": 3,
       "type": "loser"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 66.27,
+      "price": 1.5616,
+      "firstSeen": "14:50:14",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "OUSDT",
+      "pct": 43.67,
+      "price": 0.6116,
+      "firstSeen": "14:50:14",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BASUSDT",
+      "pct": 32.18,
+      "price": 0.052034,
+      "firstSeen": "14:50:14",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -39.14,
+      "price": 0.2125,
+      "firstSeen": "14:50:14",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "币安人生USDT",
+      "pct": -26.74,
+      "price": 0.5365,
+      "firstSeen": "14:50:14",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
     }
   ]
 }
