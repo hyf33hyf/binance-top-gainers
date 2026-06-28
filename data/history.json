@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-28T15:08:43.581Z",
+    "lastUpdate": "2026-06-28T16:09:19.914Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -606,6 +606,62 @@
       "rank": 3,
       "type": "loser",
       "market": "futures"
+    }
+  ],
+  "2026-06-29": [
+    {
+      "symbol": "MANTAUSDT",
+      "pct": 69.93,
+      "price": 0.13892,
+      "firstSeen": "00:09:19",
+      "rank": 1,
+      "type": "gainer",
+      "market": "spot"
+    },
+    {
+      "symbol": "ACTUSDT",
+      "pct": 67.08,
+      "price": 0.01335,
+      "firstSeen": "00:09:19",
+      "rank": 2,
+      "type": "gainer",
+      "market": "spot"
+    },
+    {
+      "symbol": "SUSDT",
+      "pct": 31.69,
+      "price": 0.02718,
+      "firstSeen": "00:09:19",
+      "rank": 3,
+      "type": "gainer",
+      "market": "spot"
+    },
+    {
+      "symbol": "PIVXUSDT",
+      "pct": -28.3,
+      "price": 0.0413,
+      "firstSeen": "00:09:19",
+      "rank": 1,
+      "type": "loser",
+      "market": "spot"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": -19,
+      "price": 0.1296,
+      "firstSeen": "00:09:19",
+      "rank": 2,
+      "type": "loser",
+      "market": "spot"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "pct": -17.66,
+      "price": 0.179,
+      "firstSeen": "00:09:19",
+      "rank": 3,
+      "type": "loser",
+      "market": "spot"
     }
   ]
 }
