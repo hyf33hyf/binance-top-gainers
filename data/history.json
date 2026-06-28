@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-28T08:09:55.273Z",
+    "lastUpdate": "2026-06-28T15:08:37.789Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -567,6 +567,42 @@
       "pct": -24.67,
       "price": 0.012116,
       "firstSeen": "15:30:12",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "pct": 80.96,
+      "price": 0.14777,
+      "firstSeen": "23:08:37",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "pct": 32.16,
+      "price": 0.316,
+      "firstSeen": "23:08:37",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "pct": -23.74,
+      "price": 0.1805,
+      "firstSeen": "23:08:37",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": -21.21,
+      "price": 0.13029,
+      "firstSeen": "23:08:37",
       "rank": 3,
       "type": "loser",
       "market": "futures"
