@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-28T16:20:19.183Z",
+    "lastUpdate": "2026-06-29T02:42:11.470Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -662,6 +662,60 @@
       "rank": 3,
       "type": "loser",
       "market": "spot"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": 37.36,
+      "price": 0.43114,
+      "firstSeen": "10:42:11",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "pct": 33.06,
+      "price": 0.3397,
+      "firstSeen": "10:42:11",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "pct": 26.97,
+      "price": 0.005334,
+      "firstSeen": "10:42:11",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -44.58,
+      "price": 0.13784,
+      "firstSeen": "10:42:11",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MYXUSDT",
+      "pct": -20.09,
+      "price": 0.0895,
+      "firstSeen": "10:42:11",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "pct": -17.29,
+      "price": 0.7017,
+      "firstSeen": "10:42:11",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
     }
   ]
 }
