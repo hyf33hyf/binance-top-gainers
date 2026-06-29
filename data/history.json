@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-29T02:42:11.470Z",
+    "lastUpdate": "2026-06-29T03:12:04.581Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -713,6 +713,33 @@
       "pct": -17.29,
       "price": 0.7017,
       "firstSeen": "10:42:11",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 34.63,
+      "price": 2.043,
+      "firstSeen": "11:12:04",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -23.31,
+      "price": 13.256,
+      "firstSeen": "11:12:04",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": -16.72,
+      "price": 0.011792,
+      "firstSeen": "11:12:04",
       "rank": 3,
       "type": "loser",
       "market": "futures"
