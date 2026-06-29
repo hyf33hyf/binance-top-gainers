@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-29T03:12:04.581Z",
+    "lastUpdate": "2026-06-29T04:55:51.817Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -741,6 +741,24 @@
       "price": 0.011792,
       "firstSeen": "11:12:04",
       "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": 26.67,
+      "price": 0.07319,
+      "firstSeen": "12:55:51",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": -25.82,
+      "price": 0.05291,
+      "firstSeen": "12:55:51",
+      "rank": 2,
       "type": "loser",
       "market": "futures"
     }
