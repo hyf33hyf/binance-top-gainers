@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-29T04:55:51.817Z",
+    "lastUpdate": "2026-06-29T11:30:50.090Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -759,6 +759,42 @@
       "price": 0.05291,
       "firstSeen": "12:55:51",
       "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": 138.14,
+      "price": 0.05105,
+      "firstSeen": "19:30:50",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": 53.08,
+      "price": 0.2085,
+      "firstSeen": "19:30:50",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "pct": 41.31,
+      "price": 0.013114,
+      "firstSeen": "19:30:50",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": -17.48,
+      "price": 0.02309,
+      "firstSeen": "19:30:50",
+      "rank": 3,
       "type": "loser",
       "market": "futures"
     }
