@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-29T11:30:50.090Z",
+    "lastUpdate": "2026-06-30T03:46:50.808Z",
     "topN": 3,
     "quote": "USDT"
   },
@@ -794,6 +794,62 @@
       "pct": -17.48,
       "price": 0.02309,
       "firstSeen": "19:30:50",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-06-30": [
+    {
+      "symbol": "TACUSDT",
+      "pct": 170.56,
+      "price": 0.059463,
+      "firstSeen": "11:46:50",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "pct": 70.32,
+      "price": 0.03943,
+      "firstSeen": "11:46:50",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "pct": 37.18,
+      "price": 0.9585,
+      "firstSeen": "11:46:50",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "pct": -19,
+      "price": 0.069,
+      "firstSeen": "11:46:50",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "POWRUSDT",
+      "pct": -18.42,
+      "price": 0.04784,
+      "firstSeen": "11:46:50",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": -18.2,
+      "price": 0.50496,
+      "firstSeen": "11:46:50",
       "rank": 3,
       "type": "loser",
       "market": "futures"
