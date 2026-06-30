@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-30T03:46:50.808Z",
-    "topN": 3,
+    "lastUpdate": "2026-06-30T03:51:52.603Z",
+    "topN": 5,
     "quote": "USDT"
   },
   "2026-06-22": [
@@ -851,6 +851,42 @@
       "price": 0.50496,
       "firstSeen": "11:46:50",
       "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "pct": 35.87,
+      "price": 0.0875,
+      "firstSeen": "11:51:52",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "pct": 35.2,
+      "price": 0.012894,
+      "firstSeen": "11:51:52",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -14.06,
+      "price": 0.11722,
+      "firstSeen": "11:51:52",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "JTOUSDT",
+      "pct": -13.2,
+      "price": 0.7373,
+      "firstSeen": "11:51:52",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
