@@ -2,7 +2,7 @@ name: 币安涨幅榜定时采集
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,9 +22,9 @@ jobs:
 
       - name: 运行采集脚本
         env:
-          TOP_N: '3'
+          TOP_N: '5'
           QUOTE: 'USDT'
-          MARKET: 'spot'
+          MARKET: 'futures'
         run: python scripts/fetch_top_gainers.py
 
       - name: 提交更新后的数据文件
