@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-06-30T03:52:09.646Z",
+    "lastUpdate": "2026-06-30T14:57:27.190Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -886,6 +886,78 @@
       "pct": -13.2,
       "price": 0.7373,
       "firstSeen": "11:51:52",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "INUSDT",
+      "pct": 80.6,
+      "price": 0.22468,
+      "firstSeen": "22:57:27",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": 35.13,
+      "price": 0.58865,
+      "firstSeen": "22:57:27",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HUSDT",
+      "pct": 31.76,
+      "price": 0.08227,
+      "firstSeen": "22:57:27",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUSDT",
+      "pct": 28.65,
+      "price": 0.7085,
+      "firstSeen": "22:57:27",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -34.86,
+      "price": 0.1383,
+      "firstSeen": "22:57:27",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "NFPUSDT",
+      "pct": -26.2,
+      "price": 0.00423,
+      "firstSeen": "22:57:27",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "pct": -20.24,
+      "price": 0.3291,
+      "firstSeen": "22:57:27",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GUSDT",
+      "pct": -17.45,
+      "price": 0.003293,
+      "firstSeen": "22:57:27",
       "rank": 5,
       "type": "loser",
       "market": "futures"
