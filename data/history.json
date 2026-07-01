@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-01T04:07:34.249Z",
+    "lastUpdate": "2026-07-01T10:33:46.640Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1050,6 +1050,51 @@
       "pct": -16.63,
       "price": 0.007166,
       "firstSeen": "12:07:34",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "pct": 65.76,
+      "price": 0.1162,
+      "firstSeen": "18:33:46",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NFPUSDT",
+      "pct": 63.64,
+      "price": 0.007367,
+      "firstSeen": "18:33:46",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -31.66,
+      "price": 8.894,
+      "firstSeen": "18:33:46",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BICOUSDT",
+      "pct": -20.33,
+      "price": 0.01509,
+      "firstSeen": "18:33:46",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "pct": -19.09,
+      "price": 0.2891,
+      "firstSeen": "18:33:46",
       "rank": 5,
       "type": "loser",
       "market": "futures"
