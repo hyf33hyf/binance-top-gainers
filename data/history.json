@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-01T10:33:46.640Z",
+    "lastUpdate": "2026-07-02T13:00:05.154Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1095,6 +1095,98 @@
       "pct": -19.09,
       "price": 0.2891,
       "firstSeen": "18:33:46",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-02": [
+    {
+      "symbol": "TLMUSDT",
+      "pct": 70.57,
+      "price": 0.00153,
+      "firstSeen": "21:00:05",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "pct": 70.42,
+      "price": 0.09097,
+      "firstSeen": "21:00:05",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUSDT",
+      "pct": 60.99,
+      "price": 1.6366,
+      "firstSeen": "21:00:05",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": 45.44,
+      "price": 0.017827,
+      "firstSeen": "21:00:05",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BREVUSDT",
+      "pct": 36.68,
+      "price": 0.093,
+      "firstSeen": "21:00:05",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -64.7,
+      "price": 0.5233,
+      "firstSeen": "21:00:05",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GUAUSDT",
+      "pct": -47.94,
+      "price": 0.0911,
+      "firstSeen": "21:00:05",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BASUSDT",
+      "pct": -44.13,
+      "price": 0.033418,
+      "firstSeen": "21:00:05",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": -34.96,
+      "price": 0.037074,
+      "firstSeen": "21:00:05",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "pct": -28,
+      "price": 0.01602,
+      "firstSeen": "21:00:05",
       "rank": 5,
       "type": "loser",
       "market": "futures"
