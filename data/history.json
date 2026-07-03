@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-03T06:54:55.187Z",
+    "lastUpdate": "2026-07-03T13:34:06.072Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1324,6 +1324,42 @@
       "pct": -15.37,
       "price": 0.07679,
       "firstSeen": "14:54:55",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "pct": 31.96,
+      "price": 0.01057,
+      "firstSeen": "21:34:06",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "pct": 24.51,
+      "price": 0.009023,
+      "firstSeen": "21:34:06",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -21.19,
+      "price": 7.138,
+      "firstSeen": "21:34:06",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AERGOUSDT",
+      "pct": -15.64,
+      "price": 0.02448,
+      "firstSeen": "21:34:06",
       "rank": 5,
       "type": "loser",
       "market": "futures"
