@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-03T13:34:06.072Z",
+    "lastUpdate": "2026-07-04T12:37:17.324Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1360,6 +1360,98 @@
       "pct": -15.64,
       "price": 0.02448,
       "firstSeen": "21:34:06",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-04": [
+    {
+      "symbol": "TLMUSDT",
+      "pct": 91.67,
+      "price": 0.003151,
+      "firstSeen": "20:37:17",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "pct": 90.22,
+      "price": 0.0004027,
+      "firstSeen": "20:37:17",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": 71.81,
+      "price": 12.202,
+      "firstSeen": "20:37:17",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "pct": 38.73,
+      "price": 0.6795,
+      "firstSeen": "20:37:17",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 33.45,
+      "price": 0.5589,
+      "firstSeen": "20:37:17",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": -37.84,
+      "price": 0.0003084,
+      "firstSeen": "20:37:17",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "pct": -22.15,
+      "price": 0.0579,
+      "firstSeen": "20:37:17",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "pct": -21.1,
+      "price": 0.004073,
+      "firstSeen": "20:37:17",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": -19.38,
+      "price": 0.3627,
+      "firstSeen": "20:37:17",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AGTUSDT",
+      "pct": -18.06,
+      "price": 0.013173,
+      "firstSeen": "20:37:17",
       "rank": 5,
       "type": "loser",
       "market": "futures"
