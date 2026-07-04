@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-04T12:37:17.324Z",
+    "lastUpdate": "2026-07-04T14:50:50.501Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1452,6 +1452,33 @@
       "pct": -18.06,
       "price": 0.013173,
       "firstSeen": "20:37:17",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "pct": 50.47,
+      "price": 0.004454,
+      "firstSeen": "22:50:50",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -18.47,
+      "price": 0.06146,
+      "firstSeen": "22:50:50",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -18.06,
+      "price": 0.39452,
+      "firstSeen": "22:50:50",
       "rank": 5,
       "type": "loser",
       "market": "futures"
