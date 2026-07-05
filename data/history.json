@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-05T08:28:05.354Z",
+    "lastUpdate": "2026-07-05T12:24:31.389Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1653,6 +1653,24 @@
       "price": 0.003479,
       "firstSeen": "16:28:05",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOTUSDT",
+      "pct": 18.36,
+      "price": 0.0003765,
+      "firstSeen": "20:24:31",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CATIUSDT",
+      "pct": -18.48,
+      "price": 0.04829,
+      "firstSeen": "20:24:31",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
