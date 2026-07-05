@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-05T12:24:31.389Z",
+    "lastUpdate": "2026-07-05T16:35:07.786Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1671,6 +1671,98 @@
       "price": 0.04829,
       "firstSeen": "20:24:31",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-06": [
+    {
+      "symbol": "CAPUSDT",
+      "pct": 34.82,
+      "price": 0.02718,
+      "firstSeen": "00:35:07",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": 19.48,
+      "price": 0.003184,
+      "firstSeen": "00:35:07",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOTUSDT",
+      "pct": 17.66,
+      "price": 0.0003785,
+      "firstSeen": "00:35:07",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": 13.26,
+      "price": 0.07484,
+      "firstSeen": "00:35:07",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "OUSDT",
+      "pct": 12.73,
+      "price": 0.5837,
+      "firstSeen": "00:35:07",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "pct": -43.05,
+      "price": 0.4003,
+      "firstSeen": "00:35:07",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": -31.89,
+      "price": 0.23543,
+      "firstSeen": "00:35:07",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BASUSDT",
+      "pct": -20.79,
+      "price": 0.033195,
+      "firstSeen": "00:35:07",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CATIUSDT",
+      "pct": -14.97,
+      "price": 0.04764,
+      "firstSeen": "00:35:07",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "pct": -14.77,
+      "price": 0.0998,
+      "firstSeen": "00:35:07",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
