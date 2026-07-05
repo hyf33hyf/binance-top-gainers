@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-04T16:34:09.210Z",
+    "lastUpdate": "2026-07-05T05:39:27.063Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1572,6 +1572,51 @@
       "price": 0.309,
       "firstSeen": "00:34:09",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RPLUSDT",
+      "pct": 35.78,
+      "price": 2.197,
+      "firstSeen": "13:39:27",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "pct": 25.94,
+      "price": 0.03937,
+      "firstSeen": "13:39:27",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "pct": 18.95,
+      "price": 0.08287,
+      "firstSeen": "13:39:27",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": -30.6,
+      "price": 0.49903,
+      "firstSeen": "13:39:27",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -26.07,
+      "price": 0.33689,
+      "firstSeen": "13:39:27",
+      "rank": 3,
       "type": "loser",
       "market": "futures"
     }
