@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-06T10:11:48.034Z",
+    "lastUpdate": "2026-07-06T10:51:46.659Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1899,6 +1899,15 @@
       "firstSeen": "18:11:48",
       "rank": 4,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "YFIUSDT",
+      "pct": 16.67,
+      "price": 2107,
+      "firstSeen": "18:51:46",
+      "rank": 4,
+      "type": "gainer",
       "market": "futures"
     }
   ]
