@@ -663,11 +663,14 @@
     display: flex; gap: 24px; padding: 10px 20px;
     border-bottom: 1px solid var(--border);
     flex-shrink: 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
   }
-  .info-item { display: flex; flex-direction: column; gap: 2px; }
-  .info-label { font-size: 10px; color: var(--muted); font-family: 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: .06em; }
-  .info-val   { font-size: 14px; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--text); }
+  .modal-info::-webkit-scrollbar { display: none; }
+  .info-item { display: flex; flex-direction: column; gap: 2px; min-width: 80px; flex-shrink: 0; }
+  .info-label { font-size: 10px; color: var(--muted); font-family: 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
+  .info-val   { font-size: 14px; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
   .info-val.up   { color: var(--green); }
   .info-val.down { color: var(--red); }
 
