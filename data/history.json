@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-06T03:36:34.083Z",
+    "lastUpdate": "2026-07-06T06:58:45.118Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1816,6 +1816,51 @@
       "pct": -14.66,
       "price": 0.06879,
       "firstSeen": "11:36:04",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BELUSDT",
+      "pct": 22.68,
+      "price": 0.12215,
+      "firstSeen": "14:58:45",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "pct": 16.75,
+      "price": 0.04732,
+      "firstSeen": "14:58:45",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UBUSDT",
+      "pct": 16.5,
+      "price": 0.11064,
+      "firstSeen": "14:58:45",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "pct": -18.65,
+      "price": 0.011872,
+      "firstSeen": "14:58:45",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "pct": -18.19,
+      "price": 0.07171,
+      "firstSeen": "14:58:45",
       "rank": 5,
       "type": "loser",
       "market": "futures"
