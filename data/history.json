@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-06T06:58:45.118Z",
+    "lastUpdate": "2026-07-06T07:48:19.700Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1863,6 +1863,15 @@
       "firstSeen": "14:58:45",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "pct": 11.46,
+      "price": 0.005224,
+      "firstSeen": "15:48:19",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
