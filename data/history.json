@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-05T16:35:07.786Z",
+    "lastUpdate": "2026-07-06T03:36:04.885Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1762,6 +1762,60 @@
       "pct": -14.77,
       "price": 0.0998,
       "firstSeen": "00:35:07",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": 26.3,
+      "price": 0.42684,
+      "firstSeen": "11:36:04",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LITUSDT",
+      "pct": 21.34,
+      "price": 2.6485,
+      "firstSeen": "11:36:04",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRBUSDT",
+      "pct": 13.85,
+      "price": 18.297,
+      "firstSeen": "11:36:04",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "GOATUSDT",
+      "pct": 11.89,
+      "price": 0.01534,
+      "firstSeen": "11:36:04",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AGTUSDT",
+      "pct": -17.46,
+      "price": 0.011625,
+      "firstSeen": "11:36:04",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "POWERUSDT",
+      "pct": -14.66,
+      "price": 0.06879,
+      "firstSeen": "11:36:04",
       "rank": 5,
       "type": "loser",
       "market": "futures"
