@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-06T07:48:22.872Z",
+    "lastUpdate": "2026-07-06T10:11:48.034Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1872,6 +1872,33 @@
       "firstSeen": "15:48:19",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SCRTUSDT",
+      "pct": 19.1,
+      "price": 0.05767,
+      "firstSeen": "18:11:48",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": -16.39,
+      "price": 0.06378,
+      "firstSeen": "18:11:48",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "pct": -14.49,
+      "price": 0.011514,
+      "firstSeen": "18:11:48",
+      "rank": 4,
+      "type": "loser",
       "market": "futures"
     }
   ]
