@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-06T10:51:46.659Z",
+    "lastUpdate": "2026-07-07T15:56:41.506Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1908,6 +1908,98 @@
       "firstSeen": "18:51:46",
       "rank": 4,
       "type": "gainer",
+      "market": "futures"
+    }
+  ],
+  "2026-07-07": [
+    {
+      "symbol": "EVAAUSDT",
+      "pct": 106.71,
+      "price": 1.9524,
+      "firstSeen": "23:56:41",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BLURUSDT",
+      "pct": 43.43,
+      "price": 0.02378,
+      "firstSeen": "23:56:41",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": 36.34,
+      "price": 0.19625,
+      "firstSeen": "23:56:41",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "pct": 29.96,
+      "price": 0.3527,
+      "firstSeen": "23:56:41",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUSDT",
+      "pct": 16.33,
+      "price": 1.3425,
+      "firstSeen": "23:56:41",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": -79.73,
+      "price": 0.006196,
+      "firstSeen": "23:56:41",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -58.04,
+      "price": 6.749,
+      "firstSeen": "23:56:41",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": -32.26,
+      "price": 0.000207,
+      "firstSeen": "23:56:41",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -28.71,
+      "price": 0.03745,
+      "firstSeen": "23:56:41",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": -24.28,
+      "price": 0.002847,
+      "firstSeen": "23:56:41",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
