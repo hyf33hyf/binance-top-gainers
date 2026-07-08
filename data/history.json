@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-07T15:56:41.506Z",
+    "lastUpdate": "2026-07-08T04:54:48.765Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -1998,6 +1998,98 @@
       "pct": -24.28,
       "price": 0.002847,
       "firstSeen": "23:56:41",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-08": [
+    {
+      "symbol": "EVAAUSDT",
+      "pct": 164.93,
+      "price": 2.8641,
+      "firstSeen": "12:54:48",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": 50.75,
+      "price": 0.21643,
+      "firstSeen": "12:54:48",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "pct": 33.07,
+      "price": 0.4225,
+      "firstSeen": "12:54:48",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "pct": 27.57,
+      "price": 0.02517,
+      "firstSeen": "12:54:48",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LDOUSDT",
+      "pct": 15.88,
+      "price": 0.3233,
+      "firstSeen": "12:54:48",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": -86.42,
+      "price": 0.004426,
+      "firstSeen": "12:54:48",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -74.61,
+      "price": 3.663,
+      "firstSeen": "12:54:48",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": -36.45,
+      "price": 0.0001918,
+      "firstSeen": "12:54:48",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -35.6,
+      "price": 0.02831,
+      "firstSeen": "12:54:48",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "pct": -32.98,
+      "price": 0.3607,
+      "firstSeen": "12:54:48",
       "rank": 5,
       "type": "loser",
       "market": "futures"
