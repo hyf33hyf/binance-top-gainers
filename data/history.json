@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-08T07:55:05.077Z",
+    "lastUpdate": "2026-07-08T12:04:21.725Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2118,6 +2118,33 @@
       "price": 0.0001928,
       "firstSeen": "15:55:05",
       "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "pct": 29.43,
+      "price": 0.7983,
+      "firstSeen": "20:04:21",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": 20.57,
+      "price": 0.4238,
+      "firstSeen": "20:04:21",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "pct": -32.58,
+      "price": 0.01736,
+      "firstSeen": "20:04:21",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
