@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-08T12:04:21.725Z",
+    "lastUpdate": "2026-07-09T02:52:05.796Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2144,6 +2144,98 @@
       "pct": -32.58,
       "price": 0.01736,
       "firstSeen": "20:04:21",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-09": [
+    {
+      "symbol": "POWERUSDT",
+      "pct": 39.03,
+      "price": 0.10477,
+      "firstSeen": "10:52:05",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UAIUSDT",
+      "pct": 25.9,
+      "price": 0.401,
+      "firstSeen": "10:52:05",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "pct": 17.6,
+      "price": 0.01745,
+      "firstSeen": "10:52:05",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "pct": 16.38,
+      "price": 0.007455,
+      "firstSeen": "10:52:05",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "pct": 16.07,
+      "price": 0.2506,
+      "firstSeen": "10:52:05",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -70.22,
+      "price": 1.27,
+      "firstSeen": "10:52:05",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": -41.6,
+      "price": 0.00258,
+      "firstSeen": "10:52:05",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "pct": -27.8,
+      "price": 0.01405,
+      "firstSeen": "10:52:05",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "UBUSDT",
+      "pct": -17.39,
+      "price": 0.07344,
+      "firstSeen": "10:52:05",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAGUSDT",
+      "pct": -17.27,
+      "price": 0.000714,
+      "firstSeen": "10:52:05",
       "rank": 5,
       "type": "loser",
       "market": "futures"
