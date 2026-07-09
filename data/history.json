@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-09T09:22:01.642Z",
+    "lastUpdate": "2026-07-09T12:47:12.903Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2310,6 +2310,24 @@
       "firstSeen": "17:22:01",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": 25.13,
+      "price": 0.01962,
+      "firstSeen": "20:47:12",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": -18.79,
+      "price": 0.10738,
+      "firstSeen": "20:47:12",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
