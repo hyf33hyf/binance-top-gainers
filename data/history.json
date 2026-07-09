@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-09T13:05:16.340Z",
+    "lastUpdate": "2026-07-09T15:37:38.576Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2345,6 +2345,24 @@
       "price": 0.4167,
       "firstSeen": "21:05:16",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MITOUSDT",
+      "pct": 26.76,
+      "price": 0.02553,
+      "firstSeen": "23:37:38",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": -16.59,
+      "price": 0.15869,
+      "firstSeen": "23:37:38",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
