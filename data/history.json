@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-10T11:45:40.826Z",
+    "lastUpdate": "2026-07-10T13:17:00.827Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2491,6 +2491,24 @@
       "price": 0.05801,
       "firstSeen": "19:17:49",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": 39.96,
+      "price": 1.1716,
+      "firstSeen": "21:17:00",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -13.86,
+      "price": 0.3152,
+      "firstSeen": "21:17:00",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
