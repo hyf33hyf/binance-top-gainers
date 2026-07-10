@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-10T13:17:00.827Z",
+    "lastUpdate": "2026-07-10T17:38:07.140Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2508,6 +2508,98 @@
       "pct": -13.86,
       "price": 0.3152,
       "firstSeen": "21:17:00",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-11": [
+    {
+      "symbol": "SKLUSDT",
+      "pct": 28.08,
+      "price": 0.005318,
+      "firstSeen": "01:38:07",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BUSDT",
+      "pct": 26.98,
+      "price": 0.208,
+      "firstSeen": "01:38:07",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": 24.91,
+      "price": 0.004268,
+      "firstSeen": "01:38:07",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAGUSDT",
+      "pct": 24.24,
+      "price": 0.000938,
+      "firstSeen": "01:38:07",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "XPINUSDT",
+      "pct": 23.83,
+      "price": 0.001829,
+      "firstSeen": "01:38:07",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "pct": -21.39,
+      "price": 0.01003,
+      "firstSeen": "01:38:07",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -15.62,
+      "price": 0.3095,
+      "firstSeen": "01:38:07",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -13.09,
+      "price": 0.0717,
+      "firstSeen": "01:38:07",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": -12.95,
+      "price": 0.001969,
+      "firstSeen": "01:38:07",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "pct": -12.64,
+      "price": 0.04279,
+      "firstSeen": "01:38:07",
       "rank": 5,
       "type": "loser",
       "market": "futures"
