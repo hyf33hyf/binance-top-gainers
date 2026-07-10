@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-10T05:00:27.255Z",
+    "lastUpdate": "2026-07-10T06:56:06.931Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2455,6 +2455,24 @@
       "price": 0.08499,
       "firstSeen": "12:57:39",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "pct": -14.41,
+      "price": 0.006807,
+      "firstSeen": "14:56:06",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": -13.96,
+      "price": 0.002096,
+      "firstSeen": "14:56:06",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
