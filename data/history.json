@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-10T06:56:06.931Z",
+    "lastUpdate": "2026-07-10T11:17:49.167Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2472,6 +2472,24 @@
       "pct": -13.96,
       "price": 0.002096,
       "firstSeen": "14:56:06",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "pct": 52.5,
+      "price": 2.8164,
+      "firstSeen": "19:17:49",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "THEUSDT",
+      "pct": -11.22,
+      "price": 0.05801,
+      "firstSeen": "19:17:49",
       "rank": 4,
       "type": "loser",
       "market": "futures"
