@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T15:26:10.365Z",
+    "lastUpdate": "2026-07-11T16:31:51.544Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2798,6 +2798,98 @@
       "pct": -16.82,
       "price": 0.01676,
       "firstSeen": "23:26:10",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-12": [
+    {
+      "symbol": "TUSDT",
+      "pct": 35.78,
+      "price": 0.004626,
+      "firstSeen": "00:31:51",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": 19.54,
+      "price": 0.2499,
+      "firstSeen": "00:31:51",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "pct": 17.82,
+      "price": 0.01296,
+      "firstSeen": "00:31:51",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CHRUSDT",
+      "pct": 16.56,
+      "price": 0.01703,
+      "firstSeen": "00:31:51",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SXTUSDT",
+      "pct": 15.9,
+      "price": 0.008062,
+      "firstSeen": "00:31:51",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BUSDT",
+      "pct": -43.49,
+      "price": 0.1297,
+      "firstSeen": "00:31:51",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -27.17,
+      "price": 0.7179,
+      "firstSeen": "00:31:51",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "pct": -21.97,
+      "price": 0.03317,
+      "firstSeen": "00:31:51",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -15.38,
+      "price": 0.0616,
+      "firstSeen": "00:31:51",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "pct": -15.34,
+      "price": 0.005562,
+      "firstSeen": "00:31:51",
       "rank": 5,
       "type": "loser",
       "market": "futures"
