@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T04:31:41.870Z",
+    "lastUpdate": "2026-07-11T05:11:22.742Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2700,6 +2700,24 @@
       "price": 0.01588,
       "firstSeen": "12:31:41",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "pct": 21.07,
+      "price": 0.04056,
+      "firstSeen": "13:11:22",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "pct": -21.53,
+      "price": 2.0573,
+      "firstSeen": "13:11:22",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
