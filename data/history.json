@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T03:55:37.261Z",
+    "lastUpdate": "2026-07-11T04:31:41.870Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2690,6 +2690,15 @@
       "pct": -19.68,
       "price": 0.3758,
       "firstSeen": "11:55:37",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": -20.84,
+      "price": 0.01588,
+      "firstSeen": "12:31:41",
       "rank": 5,
       "type": "loser",
       "market": "futures"
