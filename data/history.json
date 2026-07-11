@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T07:07:59.210Z",
+    "lastUpdate": "2026-07-11T08:30:48.042Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2745,6 +2745,15 @@
       "price": 0.022222,
       "firstSeen": "15:07:59",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -24.2,
+      "price": 0.4275,
+      "firstSeen": "16:30:48",
+      "rank": 3,
       "type": "loser",
       "market": "futures"
     }
