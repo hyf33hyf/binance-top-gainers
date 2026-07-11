@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-10T17:38:07.140Z",
+    "lastUpdate": "2026-07-11T02:48:11.725Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2601,6 +2601,51 @@
       "price": 0.04279,
       "firstSeen": "01:38:07",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MMTUSDT",
+      "pct": 21.29,
+      "price": 0.1926,
+      "firstSeen": "10:48:11",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": 19.51,
+      "price": 2.689,
+      "firstSeen": "10:48:11",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "OPNUSDT",
+      "pct": 18.13,
+      "price": 0.07323,
+      "firstSeen": "10:48:11",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -24.06,
+      "price": 0.8545,
+      "firstSeen": "10:48:11",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "pct": -19.73,
+      "price": 0.005784,
+      "firstSeen": "10:48:11",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
