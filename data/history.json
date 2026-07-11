@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T02:48:11.725Z",
+    "lastUpdate": "2026-07-11T03:09:38.190Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2647,6 +2647,15 @@
       "firstSeen": "10:48:11",
       "rank": 4,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "pct": 17.3,
+      "price": 0.6314,
+      "firstSeen": "11:09:38",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
