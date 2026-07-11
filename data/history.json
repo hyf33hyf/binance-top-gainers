@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T05:11:22.742Z",
+    "lastUpdate": "2026-07-11T05:11:55.362Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2719,6 +2719,15 @@
       "firstSeen": "13:11:22",
       "rank": 4,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": 19.14,
+      "price": 0.24164,
+      "firstSeen": "13:11:55",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
