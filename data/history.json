@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-11T03:28:27.544Z",
+    "lastUpdate": "2026-07-11T03:55:37.261Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2665,6 +2665,33 @@
       "firstSeen": "11:28:27",
       "rank": 3,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AIOUSDT",
+      "pct": 18.61,
+      "price": 0.11563,
+      "firstSeen": "11:55:37",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "pct": 17.52,
+      "price": 0.0002227,
+      "firstSeen": "11:55:37",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "pct": -19.68,
+      "price": 0.3758,
+      "firstSeen": "11:55:37",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
