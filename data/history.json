@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T04:41:19.659Z",
+    "lastUpdate": "2026-07-12T05:03:05.519Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2982,6 +2982,15 @@
       "firstSeen": "12:41:19",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "pct": -18.42,
+      "price": 0.03361,
+      "firstSeen": "13:03:05",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
