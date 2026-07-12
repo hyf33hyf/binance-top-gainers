@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T09:53:06.465Z",
+    "lastUpdate": "2026-07-12T10:37:32.807Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3009,6 +3009,33 @@
       "firstSeen": "17:53:06",
       "rank": 4,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": 14.39,
+      "price": 0.002162,
+      "firstSeen": "18:37:32",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": 13.66,
+      "price": 0.023678,
+      "firstSeen": "18:37:32",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAGUSDT",
+      "pct": -15.3,
+      "price": 0.000891,
+      "firstSeen": "18:37:32",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
