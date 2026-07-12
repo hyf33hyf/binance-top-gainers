@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T05:03:05.519Z",
+    "lastUpdate": "2026-07-12T09:53:06.465Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2991,6 +2991,24 @@
       "firstSeen": "13:03:05",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": 16.89,
+      "price": 42.43,
+      "firstSeen": "17:53:06",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "pct": 16.27,
+      "price": 0.04502,
+      "firstSeen": "17:53:06",
+      "rank": 4,
+      "type": "gainer",
       "market": "futures"
     }
   ]
