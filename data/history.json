@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T01:34:34.021Z",
+    "lastUpdate": "2026-07-12T03:09:10.391Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2944,6 +2944,24 @@
       "pct": -19.45,
       "price": 0.01586,
       "firstSeen": "09:34:34",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "FHEUSDT",
+      "pct": 14.88,
+      "price": 0.01945,
+      "firstSeen": "11:09:10",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -17.47,
+      "price": 2.225,
+      "firstSeen": "11:09:10",
       "rank": 5,
       "type": "loser",
       "market": "futures"
