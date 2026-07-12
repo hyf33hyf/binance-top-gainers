@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T04:30:51.966Z",
+    "lastUpdate": "2026-07-12T04:41:19.659Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2971,6 +2971,15 @@
       "pct": 13.38,
       "price": 0.04118,
       "firstSeen": "12:29:07",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "pct": 11.48,
+      "price": 0.05815,
+      "firstSeen": "12:41:19",
       "rank": 5,
       "type": "gainer",
       "market": "futures"
