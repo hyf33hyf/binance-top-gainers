@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T04:20:00.229Z",
+    "lastUpdate": "2026-07-12T04:29:07.881Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2964,6 +2964,15 @@
       "firstSeen": "11:09:10",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": 13.38,
+      "price": 0.04118,
+      "firstSeen": "12:29:07",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
