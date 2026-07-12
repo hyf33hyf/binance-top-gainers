@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T01:28:22.238Z",
+    "lastUpdate": "2026-07-12T01:34:34.021Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -2935,6 +2935,15 @@
       "pct": -19.61,
       "price": 0.00816,
       "firstSeen": "09:28:22",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": -19.45,
+      "price": 0.01586,
+      "firstSeen": "09:34:34",
       "rank": 5,
       "type": "loser",
       "market": "futures"
