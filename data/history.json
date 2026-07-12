@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T13:46:59.513Z",
+    "lastUpdate": "2026-07-12T16:53:13.811Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3052,6 +3052,98 @@
       "pct": -11.9,
       "price": 0.04599,
       "firstSeen": "20:00:54",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-13": [
+    {
+      "symbol": "DEXEUSDT",
+      "pct": 24.27,
+      "price": 47.37,
+      "firstSeen": "00:53:13",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": 21.11,
+      "price": 0.49057,
+      "firstSeen": "00:53:13",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "pct": 21.09,
+      "price": 0.04829,
+      "firstSeen": "00:53:13",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": 20.23,
+      "price": 2.757,
+      "firstSeen": "00:53:13",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "pct": 19.72,
+      "price": 0.187,
+      "firstSeen": "00:53:13",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -34.98,
+      "price": 0.4525,
+      "firstSeen": "00:53:13",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "pct": -24.94,
+      "price": 1.2934,
+      "firstSeen": "00:53:13",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BUSDT",
+      "pct": -16.15,
+      "price": 0.1132,
+      "firstSeen": "00:53:13",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "pct": -13.79,
+      "price": 0.04463,
+      "firstSeen": "00:53:13",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "pct": -12.03,
+      "price": 3.27,
+      "firstSeen": "00:53:13",
       "rank": 5,
       "type": "loser",
       "market": "futures"
