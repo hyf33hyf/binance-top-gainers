@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-13T09:18:12.952Z",
+    "lastUpdate": "2026-07-13T12:51:31.029Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3235,6 +3235,24 @@
       "price": 0.23772,
       "firstSeen": "17:18:12",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": 21.92,
+      "price": 0.01908,
+      "firstSeen": "20:51:31",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "pct": -38.78,
+      "price": 0.07407,
+      "firstSeen": "20:51:31",
+      "rank": 2,
       "type": "loser",
       "market": "futures"
     }
