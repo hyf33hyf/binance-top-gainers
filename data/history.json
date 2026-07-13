@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-12T16:53:13.811Z",
+    "lastUpdate": "2026-07-13T02:35:40.501Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3144,6 +3144,51 @@
       "pct": -12.03,
       "price": 3.27,
       "firstSeen": "00:53:13",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "pct": 40.14,
+      "price": 0.022636,
+      "firstSeen": "10:35:40",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 23.73,
+      "price": 0.5329,
+      "firstSeen": "10:35:40",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UAIUSDT",
+      "pct": -15.35,
+      "price": 0.337,
+      "firstSeen": "10:35:40",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": -13.54,
+      "price": 0.00297,
+      "firstSeen": "10:35:40",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -13.18,
+      "price": 0.054,
+      "firstSeen": "10:35:40",
       "rank": 5,
       "type": "loser",
       "market": "futures"
