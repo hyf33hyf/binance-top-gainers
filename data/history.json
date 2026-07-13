@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-13T02:35:40.501Z",
+    "lastUpdate": "2026-07-13T02:48:52.230Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3190,6 +3190,15 @@
       "price": 0.054,
       "firstSeen": "10:35:40",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "QUSDT",
+      "pct": -12.45,
+      "price": 0.019774,
+      "firstSeen": "10:48:52",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
