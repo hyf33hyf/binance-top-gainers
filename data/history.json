@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-14T07:31:11.833Z",
+    "lastUpdate": "2026-07-14T11:11:55.962Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3400,6 +3400,33 @@
       "firstSeen": "15:31:11",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUSDT",
+      "pct": 21.07,
+      "price": 1.5051,
+      "firstSeen": "19:11:55",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": 18.19,
+      "price": 0.11886,
+      "firstSeen": "19:11:55",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "XPINUSDT",
+      "pct": -15.96,
+      "price": 0.001601,
+      "firstSeen": "19:11:55",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
