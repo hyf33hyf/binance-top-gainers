@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-14T02:29:47.613Z",
+    "lastUpdate": "2026-07-14T04:59:37.203Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3344,6 +3344,42 @@
       "pct": -24.41,
       "price": 0.8184,
       "firstSeen": "10:29:47",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "pct": 21.76,
+      "price": 2.283,
+      "firstSeen": "12:59:37",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "THEUSDT",
+      "pct": 16.27,
+      "price": 0.06067,
+      "firstSeen": "12:59:37",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "pct": 15.37,
+      "price": 0.03505,
+      "firstSeen": "12:59:37",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": -23.07,
+      "price": 0.28592,
+      "firstSeen": "12:59:37",
       "rank": 5,
       "type": "loser",
       "market": "futures"
