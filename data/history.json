@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-15T05:59:44.221Z",
+    "lastUpdate": "2026-07-16T00:44:33.985Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3544,6 +3544,98 @@
       "pct": -17.95,
       "price": 0.0085,
       "firstSeen": "13:59:44",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-16": [
+    {
+      "symbol": "AKEUSDT",
+      "pct": 278.33,
+      "price": 0.0007264,
+      "firstSeen": "08:44:33",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": 28.84,
+      "price": 0.035241,
+      "firstSeen": "08:44:33",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": 18.17,
+      "price": 0.05183,
+      "firstSeen": "08:44:33",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "pct": 17.26,
+      "price": 0.01658,
+      "firstSeen": "08:44:33",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UBUSDT",
+      "pct": 15.79,
+      "price": 0.08302,
+      "firstSeen": "08:44:33",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "pct": -18.54,
+      "price": 0.03335,
+      "firstSeen": "08:44:33",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -16.5,
+      "price": 0.042,
+      "firstSeen": "08:44:33",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HUSDT",
+      "pct": -14.95,
+      "price": 0.05784,
+      "firstSeen": "08:44:33",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": -14.93,
+      "price": 0.118,
+      "firstSeen": "08:44:33",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -13.6,
+      "price": 0.5214,
+      "firstSeen": "08:44:33",
       "rank": 5,
       "type": "loser",
       "market": "futures"
