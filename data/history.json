@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-16T00:45:13.186Z",
+    "lastUpdate": "2026-07-16T00:51:31.062Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3637,6 +3637,24 @@
       "price": 0.5214,
       "firstSeen": "08:44:33",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "pct": 15.99,
+      "price": 0.006498,
+      "firstSeen": "08:51:31",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -14.65,
+      "price": 0.2254,
+      "firstSeen": "08:51:31",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
