@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-17T14:49:33.232Z",
+    "lastUpdate": "2026-07-17T16:09:00.605Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3746,6 +3746,98 @@
       "pct": -14.31,
       "price": 0.1329,
       "firstSeen": "22:49:33",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-18": [
+    {
+      "symbol": "AKEUSDT",
+      "pct": 27.94,
+      "price": 0.0012555,
+      "firstSeen": "00:09:00",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "pct": 22.35,
+      "price": 0.007641,
+      "firstSeen": "00:09:00",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "pct": 17.04,
+      "price": 0.007213,
+      "firstSeen": "00:09:00",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAGUSDT",
+      "pct": 16.88,
+      "price": 0.00099,
+      "firstSeen": "00:09:00",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "pct": 16.34,
+      "price": 0.08944,
+      "firstSeen": "00:09:00",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "pct": -28.84,
+      "price": 0.00819,
+      "firstSeen": "00:09:00",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": -17.64,
+      "price": 0.02134,
+      "firstSeen": "00:09:00",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "pct": -17.01,
+      "price": 0.02391,
+      "firstSeen": "00:09:00",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "pct": -15.84,
+      "price": 0.8942,
+      "firstSeen": "00:09:00",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "REUSDT",
+      "pct": -15.28,
+      "price": 0.4514,
+      "firstSeen": "00:09:00",
       "rank": 5,
       "type": "loser",
       "market": "futures"
