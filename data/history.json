@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-16T00:51:31.062Z",
+    "lastUpdate": "2026-07-17T14:49:33.232Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3655,6 +3655,98 @@
       "price": 0.2254,
       "firstSeen": "08:51:31",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-17": [
+    {
+      "symbol": "1000XECUSDT",
+      "pct": 31.19,
+      "price": 0.00826,
+      "firstSeen": "22:49:33",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": 30.16,
+      "price": 0.0012775,
+      "firstSeen": "22:49:33",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "pct": 24.16,
+      "price": 0.9316,
+      "firstSeen": "22:49:33",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": 21.69,
+      "price": 0.07289,
+      "firstSeen": "22:49:33",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "pct": 18.32,
+      "price": 0.09114,
+      "firstSeen": "22:49:33",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "pct": -29.47,
+      "price": 0.00852,
+      "firstSeen": "22:49:33",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "pct": -19.67,
+      "price": 0.006505,
+      "firstSeen": "22:49:33",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "pct": -16.51,
+      "price": 0.8884,
+      "firstSeen": "22:49:33",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BILLUSDT",
+      "pct": -15.16,
+      "price": 0.02428,
+      "firstSeen": "22:49:33",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "METUSDT",
+      "pct": -14.31,
+      "price": 0.1329,
+      "firstSeen": "22:49:33",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
