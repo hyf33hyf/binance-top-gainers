@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-18T05:18:50.153Z",
+    "lastUpdate": "2026-07-18T05:34:40.876Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3876,6 +3876,15 @@
       "firstSeen": "13:07:18",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "pct": 17.66,
+      "price": 0.4863,
+      "firstSeen": "13:34:40",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
