@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-17T16:09:00.605Z",
+    "lastUpdate": "2026-07-18T05:07:18.621Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3838,6 +3838,42 @@
       "pct": -15.28,
       "price": 0.4514,
       "firstSeen": "00:09:00",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": 24.97,
+      "price": 0.21791,
+      "firstSeen": "13:07:18",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -17.11,
+      "price": 0.02975,
+      "firstSeen": "13:07:18",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TREEUSDT",
+      "pct": -17.02,
+      "price": 0.03764,
+      "firstSeen": "13:07:18",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -14.33,
+      "price": 0.0293,
+      "firstSeen": "13:07:18",
       "rank": 5,
       "type": "loser",
       "market": "futures"
