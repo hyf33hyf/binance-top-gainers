@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-18T05:34:40.876Z",
+    "lastUpdate": "2026-07-18T10:29:17.049Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3885,6 +3885,51 @@
       "firstSeen": "13:34:40",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BUSDT",
+      "pct": 32.37,
+      "price": 0.1517,
+      "firstSeen": "18:29:17",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VVVUSDT",
+      "pct": 13.22,
+      "price": 11.616,
+      "firstSeen": "18:29:17",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": -18.23,
+      "price": 0.001278,
+      "firstSeen": "18:29:17",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ARXUSDT",
+      "pct": -13.27,
+      "price": 0.149,
+      "firstSeen": "18:29:17",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "pct": -11.94,
+      "price": 0.05576,
+      "firstSeen": "18:29:17",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
