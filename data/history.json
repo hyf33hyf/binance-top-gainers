@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-19T03:55:49.960Z",
+    "lastUpdate": "2026-07-19T04:37:51.950Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4020,6 +4020,15 @@
       "pct": -10.24,
       "price": 0.002771,
       "firstSeen": "11:54:44",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "pct": -9.35,
+      "price": 0.01076,
+      "firstSeen": "12:37:51",
       "rank": 5,
       "type": "loser",
       "market": "futures"
