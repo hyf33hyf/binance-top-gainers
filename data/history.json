@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-19T04:37:51.950Z",
+    "lastUpdate": "2026-07-19T04:46:51.072Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4030,6 +4030,15 @@
       "price": 0.01076,
       "firstSeen": "12:37:51",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "pct": -18.25,
+      "price": 0.0545,
+      "firstSeen": "12:46:51",
+      "rank": 1,
       "type": "loser",
       "market": "futures"
     }
