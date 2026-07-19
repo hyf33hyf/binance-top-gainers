@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-18T10:29:17.049Z",
+    "lastUpdate": "2026-07-19T03:54:44.794Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -3928,6 +3928,98 @@
       "pct": -11.94,
       "price": 0.05576,
       "firstSeen": "18:29:17",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-19": [
+    {
+      "symbol": "BUSDT",
+      "pct": 52.11,
+      "price": 0.1731,
+      "firstSeen": "11:54:44",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": 41.68,
+      "price": 0.11217,
+      "firstSeen": "11:54:44",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "pct": 40.87,
+      "price": 0.011946,
+      "firstSeen": "11:54:44",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "pct": 26.99,
+      "price": 0.02894,
+      "firstSeen": "11:54:44",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": 25.1,
+      "price": 0.04222,
+      "firstSeen": "11:54:44",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "pct": -17.19,
+      "price": 0.06671,
+      "firstSeen": "11:54:44",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "pct": -14.07,
+      "price": 0.0001166,
+      "firstSeen": "11:54:44",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": -11.97,
+      "price": 0.20199,
+      "firstSeen": "11:54:44",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": -10.5,
+      "price": 0.15273,
+      "firstSeen": "11:54:44",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "pct": -10.24,
+      "price": 0.002771,
+      "firstSeen": "11:54:44",
       "rank": 5,
       "type": "loser",
       "market": "futures"
