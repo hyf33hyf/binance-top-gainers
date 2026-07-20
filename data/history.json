@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-19T13:24:19.625Z",
+    "lastUpdate": "2026-07-20T02:46:03.142Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4101,6 +4101,98 @@
       "pct": -8.2,
       "price": 0.4177,
       "firstSeen": "21:11:04",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-20": [
+    {
+      "symbol": "BANKUSDT",
+      "pct": 128.51,
+      "price": 0.24743,
+      "firstSeen": "10:46:03",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": 52.76,
+      "price": 0.09564,
+      "firstSeen": "10:46:03",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "pct": 37.76,
+      "price": 0.002138,
+      "firstSeen": "10:46:03",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "pct": 36.28,
+      "price": 0.046053,
+      "firstSeen": "10:46:03",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "pct": 34.06,
+      "price": 0.011016,
+      "firstSeen": "10:46:03",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": -46.07,
+      "price": 0.02414,
+      "firstSeen": "10:46:03",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "pct": -23.94,
+      "price": 0.008652,
+      "firstSeen": "10:46:03",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -23.03,
+      "price": 0.1501,
+      "firstSeen": "10:46:03",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "pct": -18.41,
+      "price": 0.4905,
+      "firstSeen": "10:46:03",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": -12.88,
+      "price": 0.0016702,
+      "firstSeen": "10:46:03",
       "rank": 5,
       "type": "loser",
       "market": "futures"
