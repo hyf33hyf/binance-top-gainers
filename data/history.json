@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-21T12:21:41.822Z",
+    "lastUpdate": "2026-07-21T14:43:25.503Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4402,6 +4402,42 @@
       "pct": -23.97,
       "price": 0.10171,
       "firstSeen": "20:21:41",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONEUSDT",
+      "pct": 37.55,
+      "price": 0.001535,
+      "firstSeen": "22:43:25",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "pct": 18,
+      "price": 0.4085,
+      "firstSeen": "22:43:25",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": -38.1,
+      "price": 0.07862,
+      "firstSeen": "22:43:25",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PROMUSDT",
+      "pct": -29.49,
+      "price": 1.652,
+      "firstSeen": "22:43:25",
       "rank": 4,
       "type": "loser",
       "market": "futures"
