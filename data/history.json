@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-21T05:53:56.996Z",
+    "lastUpdate": "2026-07-21T12:21:41.822Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4358,6 +4358,51 @@
       "price": 0.037721,
       "firstSeen": "13:53:56",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": 38.81,
+      "price": 0.02661,
+      "firstSeen": "20:21:41",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "pct": 26.46,
+      "price": 0.5314,
+      "firstSeen": "20:21:41",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": -64.36,
+      "price": 12.14,
+      "firstSeen": "20:21:41",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": -51.24,
+      "price": 0.13785,
+      "firstSeen": "20:21:41",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": -23.97,
+      "price": 0.10171,
+      "firstSeen": "20:21:41",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
