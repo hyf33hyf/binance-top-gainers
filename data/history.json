@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-20T07:22:20.664Z",
+    "lastUpdate": "2026-07-21T01:48:47.767Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4229,6 +4229,98 @@
       "pct": -12.75,
       "price": 0.0122,
       "firstSeen": "15:22:10",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-21": [
+    {
+      "symbol": "HEMIUSDT",
+      "pct": 41.85,
+      "price": 0.006426,
+      "firstSeen": "09:48:47",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ERAUSDT",
+      "pct": 35.22,
+      "price": 0.0847,
+      "firstSeen": "09:48:47",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONUSDT",
+      "pct": 32.41,
+      "price": 0.1552,
+      "firstSeen": "09:48:47",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "pct": 23.62,
+      "price": 0.26292,
+      "firstSeen": "09:48:47",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "pct": 23.55,
+      "price": 0.01122,
+      "firstSeen": "09:48:47",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "pct": -32.36,
+      "price": 0.01823,
+      "firstSeen": "09:48:47",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AGTUSDT",
+      "pct": -22.17,
+      "price": 0.011141,
+      "firstSeen": "09:48:47",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "pct": -22.07,
+      "price": 0.008331,
+      "firstSeen": "09:48:47",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "pct": -19.73,
+      "price": 0.03725,
+      "firstSeen": "09:48:47",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": -18.07,
+      "price": 0.17203,
+      "firstSeen": "09:48:47",
       "rank": 5,
       "type": "loser",
       "market": "futures"
