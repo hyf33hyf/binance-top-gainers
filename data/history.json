@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-21T14:43:25.503Z",
+    "lastUpdate": "2026-07-21T16:02:58.050Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4439,6 +4439,98 @@
       "price": 1.652,
       "firstSeen": "22:43:25",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-22": [
+    {
+      "symbol": "ERAUSDT",
+      "pct": 56.1,
+      "price": 0.09622,
+      "firstSeen": "00:02:58",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": 45.89,
+      "price": 0.0282,
+      "firstSeen": "00:02:58",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONEUSDT",
+      "pct": 31.48,
+      "price": 0.001491,
+      "firstSeen": "00:02:58",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "pct": 22.91,
+      "price": 0.5391,
+      "firstSeen": "00:02:58",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "pct": 15.21,
+      "price": 0.4067,
+      "firstSeen": "00:02:58",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": -69.89,
+      "price": 10.54,
+      "firstSeen": "00:02:58",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": -43.79,
+      "price": 0.16487,
+      "firstSeen": "00:02:58",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PROMUSDT",
+      "pct": -27.74,
+      "price": 1.667,
+      "firstSeen": "00:02:58",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": -23.64,
+      "price": 0.09435,
+      "firstSeen": "00:02:58",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HANAUSDT",
+      "pct": -19.63,
+      "price": 0.03615,
+      "firstSeen": "00:02:58",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
