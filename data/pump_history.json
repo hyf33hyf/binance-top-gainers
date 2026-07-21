@@ -815,10 +815,18 @@
       "open": "0.26720",
       "high": "0.33999",
       "close": "0.32194"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "date": "2026-07-21",
+      "pct": 27.912741695587506,
+      "open": "0.020170",
+      "high": "0.025800",
+      "close": "0.025190"
     }
   ],
   "_meta": {
-    "lastUpdate": "2026-07-21T09:48:49.928Z",
+    "lastUpdate": "2026-07-21T11:31:53.680Z",
     "threshold": 25,
     "lookbackDays": 4
   }
