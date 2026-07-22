@@ -863,10 +863,18 @@
       "open": "0.091390",
       "high": "0.13666",
       "close": "0.12823"
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "date": "2026-07-22",
+      "pct": 39.94685562444643,
+      "open": "0.0056450",
+      "high": "0.0079000",
+      "close": "0.0075920"
     }
   ],
   "_meta": {
-    "lastUpdate": "2026-07-22T09:06:15.928Z",
+    "lastUpdate": "2026-07-22T11:29:47.409Z",
     "threshold": 25,
     "lookbackDays": 4
   }
