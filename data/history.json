@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-22T07:59:06.736Z",
+    "lastUpdate": "2026-07-22T15:07:04.632Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4622,6 +4622,33 @@
       "firstSeen": "15:59:06",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "pct": 42.71,
+      "price": 0.00812,
+      "firstSeen": "23:07:04",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "pct": 25.38,
+      "price": 0.01161,
+      "firstSeen": "23:07:04",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TACUSDT",
+      "pct": 20.45,
+      "price": 0.003498,
+      "firstSeen": "23:07:04",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
