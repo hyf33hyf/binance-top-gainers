@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-23T03:04:57.269Z",
+    "lastUpdate": "2026-07-23T08:53:54.438Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4739,6 +4739,42 @@
       "pct": -14.92,
       "price": 0.02258,
       "firstSeen": "11:04:57",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": 13.98,
+      "price": 0.1258,
+      "firstSeen": "16:53:54",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "B2USDT",
+      "pct": -26.07,
+      "price": 0.3851,
+      "firstSeen": "16:53:54",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -20.71,
+      "price": 0.1501,
+      "firstSeen": "16:53:54",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BRUSDT",
+      "pct": -13.27,
+      "price": 0.14273,
+      "firstSeen": "16:53:54",
       "rank": 5,
       "type": "loser",
       "market": "futures"
