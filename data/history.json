@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-24T10:34:48.937Z",
+    "lastUpdate": "2026-07-24T11:32:06.541Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4921,6 +4921,15 @@
       "pct": -13.23,
       "price": 0.11166,
       "firstSeen": "18:34:48",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STXUSDT",
+      "pct": -12.63,
+      "price": 0.1446,
+      "firstSeen": "19:32:06",
       "rank": 5,
       "type": "loser",
       "market": "futures"
