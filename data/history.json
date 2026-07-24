@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-23T08:53:54.438Z",
+    "lastUpdate": "2026-07-24T02:01:03.478Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -4775,6 +4775,98 @@
       "pct": -13.27,
       "price": 0.14273,
       "firstSeen": "16:53:54",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-24": [
+    {
+      "symbol": "RIFUSDT",
+      "pct": 67.67,
+      "price": 0.11626,
+      "firstSeen": "10:01:03",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": 38.44,
+      "price": 0.04091,
+      "firstSeen": "10:01:03",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "PROMUSDT",
+      "pct": 28.32,
+      "price": 1.862,
+      "firstSeen": "10:01:03",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "REUSDT",
+      "pct": 26.93,
+      "price": 0.6208,
+      "firstSeen": "10:01:03",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LAUSDT",
+      "pct": 26.45,
+      "price": 0.0685,
+      "firstSeen": "10:01:03",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": -53.56,
+      "price": 1.898,
+      "firstSeen": "10:01:03",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -40.47,
+      "price": 0.3044,
+      "firstSeen": "10:01:03",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "B2USDT",
+      "pct": -28.36,
+      "price": 0.3277,
+      "firstSeen": "10:01:03",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -22.51,
+      "price": 0.1425,
+      "firstSeen": "10:01:03",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BUSDT",
+      "pct": -19.16,
+      "price": 0.1692,
+      "firstSeen": "10:01:03",
       "rank": 5,
       "type": "loser",
       "market": "futures"
