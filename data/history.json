@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-25T07:41:26.960Z",
+    "lastUpdate": "2026-07-25T15:05:44.499Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5022,6 +5022,51 @@
       "pct": -14.78,
       "price": 0.02716,
       "firstSeen": "15:41:26",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "pct": 23.76,
+      "price": 0.012323,
+      "firstSeen": "23:05:44",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": 18.41,
+      "price": 0.1762,
+      "firstSeen": "23:05:44",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": -17.55,
+      "price": 0.0226,
+      "firstSeen": "23:05:44",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LAUSDT",
+      "pct": -12.22,
+      "price": 0.06659,
+      "firstSeen": "23:05:44",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "REUSDT",
+      "pct": -10.31,
+      "price": 0.567,
+      "firstSeen": "23:05:44",
       "rank": 5,
       "type": "loser",
       "market": "futures"
