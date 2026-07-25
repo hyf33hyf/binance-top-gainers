@@ -1043,10 +1043,10 @@
     {
       "symbol": "EULUSDT",
       "date": "2026-07-25",
-      "pct": 37.5173050299954,
+      "pct": 40.073834794647,
       "open": "1.0835",
-      "high": "1.4900",
-      "close": "1.4591"
+      "high": "1.5177",
+      "close": "1.4622"
     },
     {
       "symbol": "GWEIUSDT",
@@ -1058,7 +1058,7 @@
     }
   ],
   "_meta": {
-    "lastUpdate": "2026-07-25T06:33:40.519Z",
+    "lastUpdate": "2026-07-25T06:48:40.228Z",
     "threshold": 25,
     "lookbackDays": 4
   }
