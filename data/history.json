@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-26T03:02:07.699Z",
+    "lastUpdate": "2026-07-26T07:26:50.137Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5169,6 +5169,51 @@
       "price": 0.00674,
       "firstSeen": "11:02:07",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "pct": 42.25,
+      "price": 0.944,
+      "firstSeen": "15:26:50",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DIAUSDT",
+      "pct": 38.02,
+      "price": 0.1354,
+      "firstSeen": "15:26:50",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": -43.54,
+      "price": 3.156,
+      "firstSeen": "15:26:50",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "pct": -20.74,
+      "price": 0.02182,
+      "firstSeen": "15:26:50",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONUSDT",
+      "pct": -16.52,
+      "price": 0.11997,
+      "firstSeen": "15:26:50",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
