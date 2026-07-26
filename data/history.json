@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-25T15:06:38.108Z",
+    "lastUpdate": "2026-07-26T03:02:07.699Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5076,6 +5076,98 @@
       "pct": -10.49,
       "price": 0.09296,
       "firstSeen": "23:06:38",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-26": [
+    {
+      "symbol": "EULUSDT",
+      "pct": 76.07,
+      "price": 2.0322,
+      "firstSeen": "11:02:07",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": 27.7,
+      "price": 0.0033497,
+      "firstSeen": "11:02:07",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "pct": 25.06,
+      "price": 0.00527,
+      "firstSeen": "11:02:07",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "QUSDT",
+      "pct": 23.09,
+      "price": 0.024022,
+      "firstSeen": "11:02:07",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": 21.73,
+      "price": 0.36731,
+      "firstSeen": "11:02:07",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "pct": -32.66,
+      "price": 0.342,
+      "firstSeen": "11:02:07",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": -24.28,
+      "price": 0.07832,
+      "firstSeen": "11:02:07",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": -18.89,
+      "price": 0.08556,
+      "firstSeen": "11:02:07",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": -15.44,
+      "price": 0.02081,
+      "firstSeen": "11:02:07",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "XNYUSDT",
+      "pct": -14.89,
+      "price": 0.00674,
+      "firstSeen": "11:02:07",
       "rank": 5,
       "type": "loser",
       "market": "futures"
