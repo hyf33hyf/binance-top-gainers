@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-26T07:26:54.246Z",
+    "lastUpdate": "2026-07-26T08:38:21.783Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5214,6 +5214,33 @@
       "price": 0.11997,
       "firstSeen": "15:26:50",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": 42.94,
+      "price": 0.05832,
+      "firstSeen": "16:38:21",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "REUSDT",
+      "pct": -13.94,
+      "price": 0.5126,
+      "firstSeen": "16:38:21",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "pct": -12.59,
+      "price": 0.005069,
+      "firstSeen": "16:38:21",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
