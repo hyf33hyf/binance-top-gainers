@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-26T11:38:00.406Z",
+    "lastUpdate": "2026-07-27T02:38:21.321Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5268,6 +5268,98 @@
       "price": 0.004286,
       "firstSeen": "19:17:27",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-27": [
+    {
+      "symbol": "ESPUSDT",
+      "pct": 38.95,
+      "price": 0.10253,
+      "firstSeen": "10:38:21",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DIAUSDT",
+      "pct": 38.74,
+      "price": 0.159,
+      "firstSeen": "10:38:21",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "pct": 31.9,
+      "price": 0.10139,
+      "firstSeen": "10:38:21",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "pct": 31.09,
+      "price": 0.10824,
+      "firstSeen": "10:38:21",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NILUSDT",
+      "pct": 23.44,
+      "price": 0.04282,
+      "firstSeen": "10:38:21",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": -43.59,
+      "price": 0.03069,
+      "firstSeen": "10:38:21",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": -18.47,
+      "price": 0.1034,
+      "firstSeen": "10:38:21",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -16.17,
+      "price": 0.1415,
+      "firstSeen": "10:38:21",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": -15.51,
+      "price": 3.034,
+      "firstSeen": "10:38:21",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": -13.14,
+      "price": 0.0766,
+      "firstSeen": "10:38:21",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
