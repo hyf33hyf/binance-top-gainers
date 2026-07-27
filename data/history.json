@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-27T02:38:21.321Z",
+    "lastUpdate": "2026-07-27T09:57:22.821Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5359,6 +5359,60 @@
       "pct": -13.14,
       "price": 0.0766,
       "firstSeen": "10:38:21",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONUSDT",
+      "pct": 40.16,
+      "price": 0.17223,
+      "firstSeen": "17:57:22",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": 33.92,
+      "price": 0.0041994,
+      "firstSeen": "17:57:22",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": 30.81,
+      "price": 0.09484,
+      "firstSeen": "17:57:22",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAGUSDT",
+      "pct": 28.93,
+      "price": 0.001355,
+      "firstSeen": "17:57:22",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EULUSDT",
+      "pct": -24.27,
+      "price": 1.852,
+      "firstSeen": "17:57:22",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "pct": -23.03,
+      "price": 0.7112,
+      "firstSeen": "17:57:22",
       "rank": 5,
       "type": "loser",
       "market": "futures"
