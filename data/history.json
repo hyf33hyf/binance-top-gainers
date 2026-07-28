@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-28T12:18:30.718Z",
+    "lastUpdate": "2026-07-28T12:19:35.363Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5605,6 +5605,15 @@
       "price": 0.0774,
       "firstSeen": "20:18:30",
       "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "NILUSDT",
+      "pct": -19.36,
+      "price": 0.03724,
+      "firstSeen": "20:19:35",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
