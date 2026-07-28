@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-28T02:28:40.701Z",
+    "lastUpdate": "2026-07-28T12:18:30.718Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5569,6 +5569,42 @@
       "price": 0.1253,
       "firstSeen": "10:28:40",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": 22.77,
+      "price": 3.165,
+      "firstSeen": "20:18:30",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SOONUSDT",
+      "pct": 22.44,
+      "price": 0.2559,
+      "firstSeen": "20:18:30",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "pct": 19.61,
+      "price": 0.0804,
+      "firstSeen": "20:18:30",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": -30.84,
+      "price": 0.0774,
+      "firstSeen": "20:18:30",
+      "rank": 1,
       "type": "loser",
       "market": "futures"
     }
