@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-29T09:30:21.942Z",
+    "lastUpdate": "2026-07-29T11:35:59.089Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5742,6 +5742,24 @@
       "price": 0.2637,
       "firstSeen": "17:30:21",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACHUSDT",
+      "pct": 20.89,
+      "price": 0.004982,
+      "firstSeen": "19:35:59",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LAUSDT",
+      "pct": -16.28,
+      "price": 0.05534,
+      "firstSeen": "19:35:59",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
