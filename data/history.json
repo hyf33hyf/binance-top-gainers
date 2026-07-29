@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-28T12:19:48.962Z",
+    "lastUpdate": "2026-07-29T07:50:11.724Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5614,6 +5614,98 @@
       "price": 0.03724,
       "firstSeen": "20:19:35",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-29": [
+    {
+      "symbol": "BEATUSDT",
+      "pct": 33.38,
+      "price": 3.676,
+      "firstSeen": "15:50:11",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONUSDT",
+      "pct": 25.21,
+      "price": 0.25452,
+      "firstSeen": "15:50:11",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ZILUSDT",
+      "pct": 17.65,
+      "price": 0.002713,
+      "firstSeen": "15:50:11",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UBUSDT",
+      "pct": 16.63,
+      "price": 0.13549,
+      "firstSeen": "15:50:11",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EULUSDT",
+      "pct": 14.67,
+      "price": 1.7594,
+      "firstSeen": "15:50:11",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": -42.89,
+      "price": 0.19275,
+      "firstSeen": "15:50:11",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": -25.33,
+      "price": 0.0035605,
+      "firstSeen": "15:50:11",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "KGENUSDT",
+      "pct": -14.58,
+      "price": 0.181,
+      "firstSeen": "15:50:11",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": -13.79,
+      "price": 0.0872,
+      "firstSeen": "15:50:11",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "pct": -13.04,
+      "price": 2.881,
+      "firstSeen": "15:50:11",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
