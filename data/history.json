@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-29T14:29:01.985Z",
+    "lastUpdate": "2026-07-30T04:27:22.477Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5778,6 +5778,98 @@
       "price": 0.224,
       "firstSeen": "22:29:01",
       "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-30": [
+    {
+      "symbol": "UAIUSDT",
+      "pct": 55.05,
+      "price": 0.4664,
+      "firstSeen": "12:27:22",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "COTIUSDT",
+      "pct": 53.58,
+      "price": 0.016968,
+      "firstSeen": "12:27:22",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "pct": 23.51,
+      "price": 0.009499,
+      "firstSeen": "12:27:22",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "REUSDT",
+      "pct": 22.11,
+      "price": 0.5075,
+      "firstSeen": "12:27:22",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "PRLUSDT",
+      "pct": 20.77,
+      "price": 0.2146,
+      "firstSeen": "12:27:22",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SOONUSDT",
+      "pct": -27.23,
+      "price": 0.1937,
+      "firstSeen": "12:27:22",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": -21.25,
+      "price": 0.08049,
+      "firstSeen": "12:27:22",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "EULUSDT",
+      "pct": -19.98,
+      "price": 1.4441,
+      "firstSeen": "12:27:22",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VANAUSDT",
+      "pct": -17.13,
+      "price": 1.04,
+      "firstSeen": "12:27:22",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "pct": -15.13,
+      "price": 0.02199,
+      "firstSeen": "12:27:22",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
