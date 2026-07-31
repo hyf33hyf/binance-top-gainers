@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-30T04:27:22.477Z",
+    "lastUpdate": "2026-07-31T02:30:02.042Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5869,6 +5869,98 @@
       "pct": -15.13,
       "price": 0.02199,
       "firstSeen": "12:27:22",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-07-31": [
+    {
+      "symbol": "KOMAUSDT",
+      "pct": 83.25,
+      "price": 0.015364,
+      "firstSeen": "10:30:02",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MMTUSDT",
+      "pct": 46.86,
+      "price": 0.2808,
+      "firstSeen": "10:30:02",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": 39.52,
+      "price": 0.03583,
+      "firstSeen": "10:30:02",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "RLCUSDT",
+      "pct": 25.8,
+      "price": 0.3179,
+      "firstSeen": "10:30:02",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "pct": 19.87,
+      "price": 30.47,
+      "firstSeen": "10:30:02",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": -62.42,
+      "price": 0.07316,
+      "firstSeen": "10:30:02",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "COTIUSDT",
+      "pct": -33.82,
+      "price": 0.012971,
+      "firstSeen": "10:30:02",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "UAIUSDT",
+      "pct": -24.55,
+      "price": 0.3606,
+      "firstSeen": "10:30:02",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONUSDT",
+      "pct": -21.15,
+      "price": 0.23434,
+      "firstSeen": "10:30:02",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "pct": -19.45,
+      "price": 0.06742,
+      "firstSeen": "10:30:02",
       "rank": 5,
       "type": "loser",
       "market": "futures"
