@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-07-31T05:24:59.129Z",
+    "lastUpdate": "2026-07-31T10:20:02.290Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -5979,6 +5979,42 @@
       "pct": -15.18,
       "price": 0.01503,
       "firstSeen": "13:24:59",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "pct": 26.77,
+      "price": 0.019958,
+      "firstSeen": "18:20:02",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ESPUSDT",
+      "pct": -18.22,
+      "price": 0.06804,
+      "firstSeen": "18:20:02",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "pct": -16.58,
+      "price": 0.1152,
+      "firstSeen": "18:20:02",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SYNUSDT",
+      "pct": -13.94,
+      "price": 0.1019,
+      "firstSeen": "18:20:02",
       "rank": 5,
       "type": "loser",
       "market": "futures"
