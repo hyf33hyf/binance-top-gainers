@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-01T12:44:32.155Z",
+    "lastUpdate": "2026-08-01T13:21:17.048Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6108,6 +6108,24 @@
       "price": 0.006466,
       "firstSeen": "20:44:32",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "pct": 23.92,
+      "price": 0.003984,
+      "firstSeen": "21:21:17",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": -17.22,
+      "price": 0.03313,
+      "firstSeen": "21:21:17",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
