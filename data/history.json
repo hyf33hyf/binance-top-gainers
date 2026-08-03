@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-03T10:52:57.797Z",
+    "lastUpdate": "2026-08-03T15:27:59.990Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6310,6 +6310,51 @@
       "price": 0.00719,
       "firstSeen": "18:52:57",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VICUSDT",
+      "pct": 49.23,
+      "price": 0.05071,
+      "firstSeen": "23:27:59",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": 28.75,
+      "price": 0.03851,
+      "firstSeen": "23:27:59",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": 26.16,
+      "price": 0.10122,
+      "firstSeen": "23:27:59",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "pct": -16.13,
+      "price": 0.1206,
+      "firstSeen": "23:27:59",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "pct": -15.21,
+      "price": 0.014313,
+      "firstSeen": "23:27:59",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
