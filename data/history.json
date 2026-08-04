@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-04T10:27:51.856Z",
+    "lastUpdate": "2026-08-04T14:12:04.620Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6455,6 +6455,33 @@
       "pct": -16.17,
       "price": 0.000797,
       "firstSeen": "18:27:51",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BANKUSDT",
+      "pct": 37.22,
+      "price": 0.05751,
+      "firstSeen": "22:12:04",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": 22.97,
+      "price": 0.12212,
+      "firstSeen": "22:12:04",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "pct": -19.73,
+      "price": 0.01623,
+      "firstSeen": "22:12:04",
       "rank": 5,
       "type": "loser",
       "market": "futures"
