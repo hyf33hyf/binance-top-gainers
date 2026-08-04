@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-04T10:01:42.553Z",
+    "lastUpdate": "2026-08-04T10:27:51.856Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6446,6 +6446,15 @@
       "pct": -19.17,
       "price": 2.867,
       "firstSeen": "18:01:42",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PTBUSDT",
+      "pct": -16.17,
+      "price": 0.000797,
+      "firstSeen": "18:27:51",
       "rank": 5,
       "type": "loser",
       "market": "futures"
