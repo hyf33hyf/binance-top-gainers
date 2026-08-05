@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-05T04:12:34.062Z",
+    "lastUpdate": "2026-08-05T04:48:22.979Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6648,6 +6648,15 @@
       "firstSeen": "12:12:34",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HFTUSDT",
+      "pct": 52.48,
+      "price": 0.01415,
+      "firstSeen": "12:48:22",
+      "rank": 3,
+      "type": "gainer",
       "market": "futures"
     }
   ]
