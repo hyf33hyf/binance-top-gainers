@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-05T03:11:04.591Z",
+    "lastUpdate": "2026-08-05T04:12:34.062Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6628,6 +6628,24 @@
       "pct": -16.06,
       "price": 0.01305,
       "firstSeen": "11:11:04",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BICOUSDT",
+      "pct": 36.05,
+      "price": 0.02268,
+      "firstSeen": "12:12:34",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LDOUSDT",
+      "pct": -14.05,
+      "price": 0.2814,
+      "firstSeen": "12:12:34",
       "rank": 5,
       "type": "loser",
       "market": "futures"
