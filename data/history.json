@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-08T08:08:25.496Z",
+    "lastUpdate": "2026-08-08T11:28:00.776Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6792,6 +6792,42 @@
       "pct": -17.89,
       "price": 0.042455,
       "firstSeen": "16:08:25",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ARCUSDT",
+      "pct": 36.95,
+      "price": 0.07313,
+      "firstSeen": "19:28:00",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": 26.71,
+      "price": 0.0961,
+      "firstSeen": "19:28:00",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "pct": -19.33,
+      "price": 0.7102,
+      "firstSeen": "19:28:00",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "pct": -18.46,
+      "price": 0.06271,
+      "firstSeen": "19:28:00",
       "rank": 5,
       "type": "loser",
       "market": "futures"
