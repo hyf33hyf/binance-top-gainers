@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-08T11:28:00.776Z",
+    "lastUpdate": "2026-08-08T17:41:43.047Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6828,6 +6828,98 @@
       "pct": -18.46,
       "price": 0.06271,
       "firstSeen": "19:28:00",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-09": [
+    {
+      "symbol": "TUTUSDT",
+      "pct": 85.88,
+      "price": 0.07307,
+      "firstSeen": "01:41:43",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "pct": 46.92,
+      "price": 0.018422,
+      "firstSeen": "01:41:43",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "pct": 45,
+      "price": 0.00222,
+      "firstSeen": "01:41:43",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": 27.91,
+      "price": 2.704,
+      "firstSeen": "01:41:43",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "pct": 27.03,
+      "price": 0.023921,
+      "firstSeen": "01:41:43",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HUSDT",
+      "pct": -19.92,
+      "price": 0.07576,
+      "firstSeen": "01:41:43",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "C98USDT",
+      "pct": -16.87,
+      "price": 0.01503,
+      "firstSeen": "01:41:43",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "pct": -15.06,
+      "price": 0.7288,
+      "firstSeen": "01:41:43",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "pct": -14.22,
+      "price": 0.06215,
+      "firstSeen": "01:41:43",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "pct": -13.22,
+      "price": 0.10393,
+      "firstSeen": "01:41:43",
       "rank": 5,
       "type": "loser",
       "market": "futures"
