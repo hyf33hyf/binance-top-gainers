@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-08T17:41:43.047Z",
+    "lastUpdate": "2026-08-09T10:20:33.360Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6921,6 +6921,78 @@
       "price": 0.10393,
       "firstSeen": "01:41:43",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BMTUSDT",
+      "pct": 90.97,
+      "price": 0.02452,
+      "firstSeen": "18:20:33",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "pct": 35.22,
+      "price": 0.012666,
+      "firstSeen": "18:20:33",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "pct": 33.33,
+      "price": 0.01916,
+      "firstSeen": "18:20:33",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "pct": 32.69,
+      "price": 0.003069,
+      "firstSeen": "18:20:33",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BICOUSDT",
+      "pct": -22.56,
+      "price": 0.04738,
+      "firstSeen": "18:20:33",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CYSUSDT",
+      "pct": -21.86,
+      "price": 0.9274,
+      "firstSeen": "18:20:33",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "pct": -18.07,
+      "price": 0.17888,
+      "firstSeen": "18:20:33",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "pct": -16.12,
+      "price": 0.9436,
+      "firstSeen": "18:20:33",
+      "rank": 4,
       "type": "loser",
       "market": "futures"
     }
