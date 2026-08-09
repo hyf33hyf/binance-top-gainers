@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-09T10:20:33.360Z",
+    "lastUpdate": "2026-08-09T11:05:53.255Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -6992,6 +6992,24 @@
       "pct": -16.12,
       "price": 0.9436,
       "firstSeen": "18:20:33",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": -16.46,
+      "price": 0.21763,
+      "firstSeen": "19:05:53",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SLXUSDT",
+      "pct": -15.81,
+      "price": 0.08174,
+      "firstSeen": "19:05:53",
       "rank": 4,
       "type": "loser",
       "market": "futures"
