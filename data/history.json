@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-09T11:05:53.255Z",
+    "lastUpdate": "2026-08-10T13:38:30.299Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7011,6 +7011,98 @@
       "price": 0.08174,
       "firstSeen": "19:05:53",
       "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-10": [
+    {
+      "symbol": "龙虾USDT",
+      "pct": 67.19,
+      "price": 0.032185,
+      "firstSeen": "21:38:30",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "GUAUSDT",
+      "pct": 62.48,
+      "price": 0.05841,
+      "firstSeen": "21:38:30",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NILUSDT",
+      "pct": 30.72,
+      "price": 0.04876,
+      "firstSeen": "21:38:30",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TSTUSDT",
+      "pct": 29.79,
+      "price": 0.02087,
+      "firstSeen": "21:38:30",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SQDUSDT",
+      "pct": 23.38,
+      "price": 0.04275,
+      "firstSeen": "21:38:30",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "pct": -54.29,
+      "price": 0.475,
+      "firstSeen": "21:38:30",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "XANUSDT",
+      "pct": -28.15,
+      "price": 0.012146,
+      "firstSeen": "21:38:30",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -27.3,
+      "price": 2.428,
+      "firstSeen": "21:38:30",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "pct": -22.63,
+      "price": 0.11735,
+      "firstSeen": "21:38:30",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": -20.47,
+      "price": 0.09912,
+      "firstSeen": "21:38:30",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
