@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-11T11:31:42.233Z",
+    "lastUpdate": "2026-08-11T13:38:47.913Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7286,6 +7286,24 @@
       "firstSeen": "19:31:42",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "INXUSDT",
+      "pct": 23.62,
+      "price": 0.010211,
+      "firstSeen": "21:38:47",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NILUSDT",
+      "pct": -26.25,
+      "price": 0.03622,
+      "firstSeen": "21:38:47",
+      "rank": 3,
+      "type": "loser",
       "market": "futures"
     }
   ]
