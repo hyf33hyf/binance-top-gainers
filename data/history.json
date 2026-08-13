@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-13T10:35:22.005Z",
+    "lastUpdate": "2026-08-13T15:20:10.684Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7560,6 +7560,24 @@
       "firstSeen": "18:35:22",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": 53.34,
+      "price": 0.0062942,
+      "firstSeen": "23:20:10",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "pct": 26.47,
+      "price": 0.11399,
+      "firstSeen": "23:20:10",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
