@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-13T03:21:16.886Z",
+    "lastUpdate": "2026-08-13T05:41:47.561Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7486,6 +7486,33 @@
       "pct": -19.77,
       "price": 0.000771,
       "firstSeen": "11:21:16",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACUUSDT",
+      "pct": 39.87,
+      "price": 0.12738,
+      "firstSeen": "13:41:47",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": -20.45,
+      "price": 0.026479,
+      "firstSeen": "13:41:47",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "DOSUSDT",
+      "pct": -18.16,
+      "price": 0.2906,
+      "firstSeen": "13:41:47",
       "rank": 5,
       "type": "loser",
       "market": "futures"
