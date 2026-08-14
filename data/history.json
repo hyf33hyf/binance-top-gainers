@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-13T15:21:46.555Z",
+    "lastUpdate": "2026-08-14T14:06:51.560Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7578,6 +7578,98 @@
       "firstSeen": "23:20:10",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    }
+  ],
+  "2026-08-14": [
+    {
+      "symbol": "ACEUSDT",
+      "pct": 134.61,
+      "price": 0.25819,
+      "firstSeen": "22:06:51",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AKEUSDT",
+      "pct": 94.57,
+      "price": 0.011419,
+      "firstSeen": "22:06:51",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "pct": 38.27,
+      "price": 0.13632,
+      "firstSeen": "22:06:51",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "pct": 35.44,
+      "price": 0.07288,
+      "firstSeen": "22:06:51",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 30.29,
+      "price": 0.9058,
+      "firstSeen": "22:06:51",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "pct": -33.89,
+      "price": 0.03341,
+      "firstSeen": "22:06:51",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": -30.8,
+      "price": 0.017974,
+      "firstSeen": "22:06:51",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -24.75,
+      "price": 0.678,
+      "firstSeen": "22:06:51",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONEUSDT",
+      "pct": -18,
+      "price": 0.000647,
+      "firstSeen": "22:06:51",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "LABUSDT",
+      "pct": -17.85,
+      "price": 0.0925,
+      "firstSeen": "22:06:51",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
