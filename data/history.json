@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-16T08:16:55.750Z",
+    "lastUpdate": "2026-08-16T17:02:47.475Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7805,6 +7805,98 @@
       "pct": -17.02,
       "price": 0.007701,
       "firstSeen": "16:16:00",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-17": [
+    {
+      "symbol": "AIOUSDT",
+      "pct": 36.8,
+      "price": 0.07394,
+      "firstSeen": "01:02:47",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "pct": 30.65,
+      "price": 0.01462,
+      "firstSeen": "01:02:47",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": 23.04,
+      "price": 0.34215,
+      "firstSeen": "01:02:47",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "pct": 22.37,
+      "price": 0.02511,
+      "firstSeen": "01:02:47",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 16.15,
+      "price": 1.0128,
+      "firstSeen": "01:02:47",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CYSUSDT",
+      "pct": -44.12,
+      "price": 0.719,
+      "firstSeen": "01:02:47",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": -22.92,
+      "price": 0.13567,
+      "firstSeen": "01:02:47",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -20.89,
+      "price": 0.356,
+      "firstSeen": "01:02:47",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "pct": -17.45,
+      "price": 0.007376,
+      "firstSeen": "01:02:47",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BRUSDT",
+      "pct": -13.42,
+      "price": 0.18527,
+      "firstSeen": "01:02:47",
       "rank": 5,
       "type": "loser",
       "market": "futures"
