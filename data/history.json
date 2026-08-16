@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-16T03:26:03.298Z",
+    "lastUpdate": "2026-08-16T03:59:53.907Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7771,6 +7771,15 @@
       "firstSeen": "11:26:03",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "pct": 17.66,
+      "price": 0.02765,
+      "firstSeen": "11:59:53",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
