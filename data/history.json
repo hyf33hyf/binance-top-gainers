@@ -1,8 +1,9 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-17T10:55:44.210Z",
+    "lastUpdate": "2026-08-18T02:24:32.101020+08:00",
     "topN": 5,
-    "quote": "USDT"
+    "quote": "USDT",
+    "market": "futures"
   },
   "2026-06-22": [
     {
@@ -6051,7 +6052,7 @@
     {
       "symbol": "1000SATSUSDT",
       "pct": 29.54,
-      "price": 0.00001162,
+      "price": 1.162e-05,
       "firstSeen": "20:44:32",
       "rank": 4,
       "type": "gainer",
@@ -7951,6 +7952,98 @@
       "pct": -22.15,
       "price": 0.022134,
       "firstSeen": "18:54:51",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-18": [
+    {
+      "symbol": "GPSUSDT",
+      "pct": 62.24,
+      "price": 0.016161,
+      "firstSeen": "02:24:32",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "pct": 36.43,
+      "price": 0.04385,
+      "firstSeen": "02:24:32",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": 34.02,
+      "price": 0.13225,
+      "firstSeen": "02:24:32",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "pct": 28.41,
+      "price": 0.007407,
+      "firstSeen": "02:24:32",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": 25.76,
+      "price": 0.1719,
+      "firstSeen": "02:24:32",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -42.4,
+      "price": 0.5979,
+      "firstSeen": "02:24:32",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CYSUSDT",
+      "pct": -40.93,
+      "price": 0.4483,
+      "firstSeen": "02:24:32",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -26.39,
+      "price": 0.279,
+      "firstSeen": "02:24:32",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AIOUSDT",
+      "pct": -22.24,
+      "price": 0.05534,
+      "firstSeen": "02:24:32",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "QUSDT",
+      "pct": -21.02,
+      "price": 0.019931,
+      "firstSeen": "02:24:32",
       "rank": 5,
       "type": "loser",
       "market": "futures"
