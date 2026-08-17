@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-18T02:24:32.101020+08:00",
+    "lastUpdate": "2026-08-18T07:58:59.840051+08:00",
     "topN": 5,
     "quote": "USDT",
     "market": "futures"
@@ -8046,6 +8046,15 @@
       "firstSeen": "02:24:32",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACUUSDT",
+      "pct": 14.49,
+      "price": 0.13162,
+      "firstSeen": "07:58:59",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
