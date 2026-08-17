@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-16T17:02:47.475Z",
+    "lastUpdate": "2026-08-17T10:54:51.339Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -7897,6 +7897,60 @@
       "pct": -13.42,
       "price": 0.18527,
       "firstSeen": "01:02:47",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GPSUSDT",
+      "pct": 47.49,
+      "price": 0.016436,
+      "firstSeen": "18:54:51",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": 24.63,
+      "price": 0.12088,
+      "firstSeen": "18:54:51",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "pct": 16.84,
+      "price": 0.03817,
+      "firstSeen": "18:54:51",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "HUSDT",
+      "pct": -28.35,
+      "price": 0.11063,
+      "firstSeen": "18:54:51",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "pct": -23.54,
+      "price": 0.006303,
+      "firstSeen": "18:54:51",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "QUSDT",
+      "pct": -22.15,
+      "price": 0.022134,
+      "firstSeen": "18:54:51",
       "rank": 5,
       "type": "loser",
       "market": "futures"
