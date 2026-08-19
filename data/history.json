@@ -1,9 +1,8 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-18T16:24:10.063045+08:00",
+    "lastUpdate": "2026-08-19T03:04:48.403Z",
     "topN": 5,
-    "quote": "USDT",
-    "market": "futures"
+    "quote": "USDT"
   },
   "2026-06-22": [
     {
@@ -6052,7 +6051,7 @@
     {
       "symbol": "1000SATSUSDT",
       "pct": 29.54,
-      "price": 1.162e-05,
+      "price": 0.00001162,
       "firstSeen": "20:44:32",
       "rank": 4,
       "type": "gainer",
@@ -8080,6 +8079,98 @@
       "pct": -15.39,
       "price": 0.003541,
       "firstSeen": "16:24:10",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-19": [
+    {
+      "symbol": "ACEUSDT",
+      "pct": 52.33,
+      "price": 0.23892,
+      "firstSeen": "11:04:48",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": 44.48,
+      "price": 0.50963,
+      "firstSeen": "11:04:48",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "pct": 24.25,
+      "price": 0.010247,
+      "firstSeen": "11:04:48",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "LAUSDT",
+      "pct": 17.2,
+      "price": 0.0584,
+      "firstSeen": "11:04:48",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "pct": 16.06,
+      "price": 0.3591,
+      "firstSeen": "11:04:48",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "pct": -30.31,
+      "price": 0.001738,
+      "firstSeen": "11:04:48",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "XPINUSDT",
+      "pct": -27.21,
+      "price": 0.001118,
+      "firstSeen": "11:04:48",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -25.3,
+      "price": 0.2144,
+      "firstSeen": "11:04:48",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -25.25,
+      "price": 0.05382,
+      "firstSeen": "11:04:48",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONUSDT",
+      "pct": -17.09,
+      "price": 0.2745,
+      "firstSeen": "11:04:48",
       "rank": 5,
       "type": "loser",
       "market": "futures"
