@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-19T06:56:31.443Z",
+    "lastUpdate": "2026-08-19T14:52:00.098Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -8208,6 +8208,60 @@
       "price": 0.012437,
       "firstSeen": "14:56:31",
       "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STARUSDT",
+      "pct": 26.81,
+      "price": 0.14756,
+      "firstSeen": "22:52:00",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "pct": 21.26,
+      "price": 0.01996,
+      "firstSeen": "22:52:00",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TREEUSDT",
+      "pct": 19.87,
+      "price": 0.03975,
+      "firstSeen": "22:52:00",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "pct": -24.64,
+      "price": 0.04034,
+      "firstSeen": "22:52:00",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "pct": -23.51,
+      "price": 0.01077,
+      "firstSeen": "22:52:00",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "PRLUSDT",
+      "pct": -18.64,
+      "price": 0.3624,
+      "firstSeen": "22:52:00",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
