@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-19T03:04:48.403Z",
+    "lastUpdate": "2026-08-19T06:56:31.443Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -8172,6 +8172,42 @@
       "price": 0.2745,
       "firstSeen": "11:04:48",
       "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "pct": 30.82,
+      "price": 0.008811,
+      "firstSeen": "14:56:31",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": 30.48,
+      "price": 0.64,
+      "firstSeen": "14:56:31",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "DOSUSDT",
+      "pct": 18.13,
+      "price": 0.2613,
+      "firstSeen": "14:56:31",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "GPSUSDT",
+      "pct": -25.88,
+      "price": 0.012437,
+      "firstSeen": "14:56:31",
+      "rank": 2,
       "type": "loser",
       "market": "futures"
     }
