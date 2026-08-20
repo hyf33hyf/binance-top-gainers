@@ -1,8 +1,9 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-20T07:52:53.561Z",
+    "lastUpdate": "2026-08-20T20:28:28.067332+08:00",
     "topN": 5,
-    "quote": "USDT"
+    "quote": "USDT",
+    "market": "futures"
   },
   "2026-06-22": [
     {
@@ -6051,7 +6052,7 @@
     {
       "symbol": "1000SATSUSDT",
       "pct": 29.54,
-      "price": 0.00001162,
+      "price": 1.162e-05,
       "firstSeen": "20:44:32",
       "rank": 4,
       "type": "gainer",
@@ -8382,6 +8383,42 @@
       "firstSeen": "15:52:53",
       "rank": 5,
       "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "pct": 38.27,
+      "price": 8.675e-05,
+      "firstSeen": "20:28:28",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "pct": 31.51,
+      "price": 0.0482,
+      "firstSeen": "20:28:28",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "pct": 30.34,
+      "price": 0.017396,
+      "firstSeen": "20:28:28",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": -18.98,
+      "price": 0.10512,
+      "firstSeen": "20:28:28",
+      "rank": 5,
+      "type": "loser",
       "market": "futures"
     }
   ]
