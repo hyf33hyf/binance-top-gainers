@@ -1,9 +1,8 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-20T20:28:28.067332+08:00",
+    "lastUpdate": "2026-08-20T16:50:35.257Z",
     "topN": 5,
-    "quote": "USDT",
-    "market": "futures"
+    "quote": "USDT"
   },
   "2026-06-22": [
     {
@@ -6052,7 +6051,7 @@
     {
       "symbol": "1000SATSUSDT",
       "pct": 29.54,
-      "price": 1.162e-05,
+      "price": 0.00001162,
       "firstSeen": "20:44:32",
       "rank": 4,
       "type": "gainer",
@@ -8388,7 +8387,7 @@
     {
       "symbol": "NEIROUSDT",
       "pct": 38.27,
-      "price": 8.675e-05,
+      "price": 0.00008675,
       "firstSeen": "20:28:28",
       "rank": 2,
       "type": "gainer",
@@ -8417,6 +8416,98 @@
       "pct": -18.98,
       "price": 0.10512,
       "firstSeen": "20:28:28",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-21": [
+    {
+      "symbol": "AVAAIUSDT",
+      "pct": 45.48,
+      "price": 0.01951,
+      "firstSeen": "00:50:35",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": 40.38,
+      "price": 0.26853,
+      "firstSeen": "00:50:35",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": 29.71,
+      "price": 0.23649,
+      "firstSeen": "00:50:35",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "pct": 29.61,
+      "price": 0.00008593,
+      "firstSeen": "00:50:35",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "pct": 29.56,
+      "price": 0.0011344,
+      "firstSeen": "00:50:35",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BEATUSDT",
+      "pct": -29.4,
+      "price": 0.1232,
+      "firstSeen": "00:50:35",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HANAUSDT",
+      "pct": -28.09,
+      "price": 0.019,
+      "firstSeen": "00:50:35",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "pct": -21.57,
+      "price": 0.01924,
+      "firstSeen": "00:50:35",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SCRTUSDT",
+      "pct": -19.4,
+      "price": 0.0209,
+      "firstSeen": "00:50:35",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTWUSDT",
+      "pct": -18.8,
+      "price": 0.41171,
+      "firstSeen": "00:50:35",
       "rank": 5,
       "type": "loser",
       "market": "futures"
