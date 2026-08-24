@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-24T12:52:56.113Z",
+    "lastUpdate": "2026-08-24T12:53:15.053Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -8694,6 +8694,15 @@
       "firstSeen": "20:52:56",
       "rank": 5,
       "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SPKUSDT",
+      "pct": 17.41,
+      "price": 0.02158,
+      "firstSeen": "20:53:15",
+      "rank": 5,
+      "type": "gainer",
       "market": "futures"
     }
   ]
