@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-24T15:50:07.084Z",
+    "lastUpdate": "2026-08-25T02:47:37.682Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -8728,6 +8728,98 @@
       "pct": -10.8,
       "price": 0.09888,
       "firstSeen": "23:50:07",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-25": [
+    {
+      "symbol": "TACUSDT",
+      "pct": 58.58,
+      "price": 0.002661,
+      "firstSeen": "10:47:37",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "PROMUSDT",
+      "pct": 46.91,
+      "price": 4.19,
+      "firstSeen": "10:47:37",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UAIUSDT",
+      "pct": 27.75,
+      "price": 0.3503,
+      "firstSeen": "10:47:37",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "AEROUSDT",
+      "pct": 20.22,
+      "price": 0.5679,
+      "firstSeen": "10:47:37",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "STORJUSDT",
+      "pct": 20.2,
+      "price": 0.05177,
+      "firstSeen": "10:47:37",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -78.03,
+      "price": 0.148,
+      "firstSeen": "10:47:37",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TUTUSDT",
+      "pct": -29.57,
+      "price": 0.0451,
+      "firstSeen": "10:47:37",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": -16.96,
+      "price": 0.08666,
+      "firstSeen": "10:47:37",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "pct": -15.64,
+      "price": 0.007814,
+      "firstSeen": "10:47:37",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "pct": -14.85,
+      "price": 0.05626,
+      "firstSeen": "10:47:37",
       "rank": 5,
       "type": "loser",
       "market": "futures"
