@@ -1,8 +1,9 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-25T06:58:34.401Z",
+    "lastUpdate": "2026-08-26T13:57:14.628209+08:00",
     "topN": 5,
-    "quote": "USDT"
+    "quote": "USDT",
+    "market": "futures"
   },
   "2026-06-22": [
     {
@@ -6051,7 +6052,7 @@
     {
       "symbol": "1000SATSUSDT",
       "pct": 29.54,
-      "price": 0.00001162,
+      "price": 1.162e-05,
       "firstSeen": "20:44:32",
       "rank": 4,
       "type": "gainer",
@@ -8387,7 +8388,7 @@
     {
       "symbol": "NEIROUSDT",
       "pct": 38.27,
-      "price": 0.00008675,
+      "price": 8.675e-05,
       "firstSeen": "20:28:28",
       "rank": 2,
       "type": "gainer",
@@ -8452,7 +8453,7 @@
     {
       "symbol": "NEIROUSDT",
       "pct": 29.61,
-      "price": 0.00008593,
+      "price": 8.593e-05,
       "firstSeen": "00:50:35",
       "rank": 4,
       "type": "gainer",
@@ -8857,6 +8858,98 @@
       "price": 0.015212,
       "firstSeen": "14:58:34",
       "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-08-26": [
+    {
+      "symbol": "BTRUSDT",
+      "pct": 131.44,
+      "price": 0.06876,
+      "firstSeen": "13:57:14",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BMTUSDT",
+      "pct": 44.38,
+      "price": 0.02183,
+      "firstSeen": "13:57:14",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "pct": 35.54,
+      "price": 0.035379,
+      "firstSeen": "13:57:14",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "pct": 33.65,
+      "price": 0.02141,
+      "firstSeen": "13:57:14",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ONGUSDT",
+      "pct": 21.92,
+      "price": 0.10357,
+      "firstSeen": "13:57:14",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "UAIUSDT",
+      "pct": -21.83,
+      "price": 0.284,
+      "firstSeen": "13:57:14",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -18.79,
+      "price": 0.1245,
+      "firstSeen": "13:57:14",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "pct": -16.82,
+      "price": 0.04983,
+      "firstSeen": "13:57:14",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "pct": -15.28,
+      "price": 0.02046,
+      "firstSeen": "13:57:14",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "STORJUSDT",
+      "pct": -15.08,
+      "price": 0.03999,
+      "firstSeen": "13:57:14",
+      "rank": 5,
       "type": "loser",
       "market": "futures"
     }
