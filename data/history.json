@@ -1,9 +1,8 @@
 {
   "_meta": {
-    "lastUpdate": "2026-08-26T13:57:14.628209+08:00",
+    "lastUpdate": "2026-09-02T02:10:41.794Z",
     "topN": 5,
-    "quote": "USDT",
-    "market": "futures"
+    "quote": "USDT"
   },
   "2026-06-22": [
     {
@@ -6052,7 +6051,7 @@
     {
       "symbol": "1000SATSUSDT",
       "pct": 29.54,
-      "price": 1.162e-05,
+      "price": 0.00001162,
       "firstSeen": "20:44:32",
       "rank": 4,
       "type": "gainer",
@@ -8388,7 +8387,7 @@
     {
       "symbol": "NEIROUSDT",
       "pct": 38.27,
-      "price": 8.675e-05,
+      "price": 0.00008675,
       "firstSeen": "20:28:28",
       "rank": 2,
       "type": "gainer",
@@ -8453,7 +8452,7 @@
     {
       "symbol": "NEIROUSDT",
       "pct": 29.61,
-      "price": 8.593e-05,
+      "price": 0.00008593,
       "firstSeen": "00:50:35",
       "rank": 4,
       "type": "gainer",
@@ -8949,6 +8948,98 @@
       "pct": -15.08,
       "price": 0.03999,
       "firstSeen": "13:57:14",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-09-02": [
+    {
+      "symbol": "UAIUSDT",
+      "pct": 53.97,
+      "price": 0.5837,
+      "firstSeen": "10:10:41",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": 31.91,
+      "price": 0.46781,
+      "firstSeen": "10:10:41",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "pct": 31.47,
+      "price": 0.21203,
+      "firstSeen": "10:10:41",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "pct": 18.23,
+      "price": 0.10979,
+      "firstSeen": "10:10:41",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "FFUSDT",
+      "pct": 17.28,
+      "price": 0.09907,
+      "firstSeen": "10:10:41",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SKRUSDT",
+      "pct": -32.41,
+      "price": 0.020653,
+      "firstSeen": "10:10:41",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CYSUSDT",
+      "pct": -30.69,
+      "price": 0.3894,
+      "firstSeen": "10:10:41",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "BTRUSDT",
+      "pct": -26.03,
+      "price": 0.09413,
+      "firstSeen": "10:10:41",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "0GUSDT",
+      "pct": -22.62,
+      "price": 0.1871,
+      "firstSeen": "10:10:41",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "pct": -22.16,
+      "price": 0.003801,
+      "firstSeen": "10:10:41",
       "rank": 5,
       "type": "loser",
       "market": "futures"
