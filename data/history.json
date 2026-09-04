@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-09-02T02:10:41.794Z",
+    "lastUpdate": "2026-09-04T10:32:49.112Z",
     "topN": 5,
     "quote": "USDT"
   },
@@ -9040,6 +9040,98 @@
       "pct": -22.16,
       "price": 0.003801,
       "firstSeen": "10:10:41",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-09-04": [
+    {
+      "symbol": "MARSCOINUSDT",
+      "pct": 76.67,
+      "price": 0.18312,
+      "firstSeen": "18:32:49",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "pct": 67.6,
+      "price": 0.25263,
+      "firstSeen": "18:32:49",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "pct": 27.62,
+      "price": 0.004787,
+      "firstSeen": "18:32:49",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SPXUSDT",
+      "pct": 23.44,
+      "price": 0.6562,
+      "firstSeen": "18:32:49",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "pct": 22,
+      "price": 0.626,
+      "firstSeen": "18:32:49",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": -39.72,
+      "price": 0.2476,
+      "firstSeen": "18:32:49",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "pct": -15.78,
+      "price": 0.0774,
+      "firstSeen": "18:32:49",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "CLOUSDT",
+      "pct": -11.59,
+      "price": 0.13642,
+      "firstSeen": "18:32:49",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "AVAUSDT",
+      "pct": -11.41,
+      "price": 0.1677,
+      "firstSeen": "18:32:49",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "pct": -10.71,
+      "price": 0.002242,
+      "firstSeen": "18:32:49",
       "rank": 5,
       "type": "loser",
       "market": "futures"
