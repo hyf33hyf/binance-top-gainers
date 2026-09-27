@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-09-27T02:34:40.096339+08:00",
+    "lastUpdate": "2026-09-27T16:32:54.883044+08:00",
     "topN": 5,
     "quote": "USDT",
     "market": "futures"
@@ -9317,6 +9317,60 @@
       "pct": -13.93,
       "price": 1.0778,
       "firstSeen": "02:34:40",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "QUSDT",
+      "pct": 62.22,
+      "price": 0.04192,
+      "firstSeen": "16:32:54",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SOONUSDT",
+      "pct": 41.25,
+      "price": 0.3044,
+      "firstSeen": "16:32:54",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "WUSDT",
+      "pct": 20.83,
+      "price": 0.015266,
+      "firstSeen": "16:32:54",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "pct": -16.21,
+      "price": 0.02766,
+      "firstSeen": "16:32:54",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "pct": -13.84,
+      "price": 0.22306,
+      "firstSeen": "16:32:54",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "ARKUSDT",
+      "pct": -9.13,
+      "price": 0.2589,
+      "firstSeen": "16:32:54",
       "rank": 5,
       "type": "loser",
       "market": "futures"
