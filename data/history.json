@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdate": "2026-09-27T16:32:54.883044+08:00",
+    "lastUpdate": "2026-10-14T06:57:50.037284+08:00",
     "topN": 5,
     "quote": "USDT",
     "market": "futures"
@@ -9371,6 +9371,98 @@
       "pct": -9.13,
       "price": 0.2589,
       "firstSeen": "16:32:54",
+      "rank": 5,
+      "type": "loser",
+      "market": "futures"
+    }
+  ],
+  "2026-10-14": [
+    {
+      "symbol": "QUSDT",
+      "pct": 40.97,
+      "price": 0.042091,
+      "firstSeen": "06:57:50",
+      "rank": 1,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "pct": 29.59,
+      "price": 0.01964,
+      "firstSeen": "06:57:50",
+      "rank": 2,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "BATUSDT",
+      "pct": 25.39,
+      "price": 0.19355,
+      "firstSeen": "06:57:50",
+      "rank": 3,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "OPUSDT",
+      "pct": 19.52,
+      "price": 0.15805,
+      "firstSeen": "06:57:50",
+      "rank": 4,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "龙虾USDT",
+      "pct": 19.21,
+      "price": 0.04692,
+      "firstSeen": "06:57:50",
+      "rank": 5,
+      "type": "gainer",
+      "market": "futures"
+    },
+    {
+      "symbol": "ARCUSDT",
+      "pct": -51.42,
+      "price": 0.02956,
+      "firstSeen": "06:57:50",
+      "rank": 1,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "pct": -51.01,
+      "price": 0.017,
+      "firstSeen": "06:57:50",
+      "rank": 2,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "APRUSDT",
+      "pct": -27.63,
+      "price": 0.0529,
+      "firstSeen": "06:57:50",
+      "rank": 3,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "USUSDT",
+      "pct": -21.66,
+      "price": 0.008623,
+      "firstSeen": "06:57:50",
+      "rank": 4,
+      "type": "loser",
+      "market": "futures"
+    },
+    {
+      "symbol": "GTCUSDT",
+      "pct": -18.88,
+      "price": 0.2253,
+      "firstSeen": "06:57:50",
       "rank": 5,
       "type": "loser",
       "market": "futures"
